@@ -1,0 +1,2782 @@
+parse map_list offset = 18c0
+map_list size = 17
+offset = 18c4 map_item[0] : type = 0000(TYPE_HEADER_ITEM), size = 0001, offset = 0x0000, item_size_in_byte = 6
+offset = 18d0 map_item[1] : type = 0001(TYPE_STRING_ID_ITEM), size = 0083, offset = 0x0070, item_size_in_byte = 266
+offset = 18dc map_item[2] : type = 0002(TYPE_TYPE_ID_ITEM), size = 0021, offset = 0x027c, item_size_in_byte = 70
+offset = 18e8 map_item[3] : type = 0003(TYPE_PROTO_ID_ITEM), size = 001a, offset = 0x0300, item_size_in_byte = 56
+offset = 18f4 map_item[4] : type = 0004(TYPE_FIELD_ID_ITEM), size = 002a, offset = 0x0438, item_size_in_byte = 88
+offset = 1900 map_item[5] : type = 0005(TYPE_METHOD_ID_ITEM), size = 002f, offset = 0x0588, item_size_in_byte = 98
+offset = 190c map_item[6] : type = 0006(TYPE_CLASS_DEF_ITEM), size = 0006, offset = 0x0700, item_size_in_byte = 16
+offset = 1918 map_item[7] : type = 1003(TYPE_ANNOTATION_SET_ITEM), size = 0001, offset = 0x07c0, item_size_in_byte = 6
+offset = 1924 map_item[8] : type = 2001(TYPE_CODE_ITEM), size = 0016, offset = 0x07c8, item_size_in_byte = 48
+offset = 1930 map_item[9] : type = 2006(TYPE_ANNOTATIONS_DIRECTORY_ITEM), size = 0001, offset = 0x0f68, item_size_in_byte = 6
+offset = 193c map_item[10] : type = 1001(TYPE_TYPE_LIST), size = 0013, offset = 0x0f80, item_size_in_byte = 42
+parse type_list offset = 0f80
+type_list size = 1
+type_list[0], type_idx = 23
+offset = 1948 map_item[11] : type = 2002(TYPE_STRING_DATA_ITEM), size = 0083, offset = 0x1020, item_size_in_byte = 266
+offset = 1954 map_item[12] : type = 2003(TYPE_DEBUG_INFO_ITEM), size = 0016, offset = 0x16bd, item_size_in_byte = 48
+offset = 1960 map_item[13] : type = 2004(TYPE_ANNOTATION_ITEM), size = 0001, offset = 0x17f4, item_size_in_byte = 6
+offset = 196c map_item[14] : type = 2005(TYPE_ENCODED_ARRAY_ITEM), size = 0001, offset = 0x17fd, item_size_in_byte = 6
+offset = 1978 map_item[15] : type = 2000(TYPE_CLASS_DATA_ITEM), size = 0006, offset = 0x1808, item_size_in_byte = 16
+offset = 1984 map_item[16] : type = 1000(TYPE_MAP_LIST), size = 0001, offset = 0x18c0, item_size_in_byte = 6
+parse string ids offset = 0070
+parse string data item offset = 1020 str[ 0], len =    0, data = 
+parse string data item offset = 1022 str[ 1], len =   15, data =  dhrystone/sec.
+parse string data item offset = 1033 str[ 2], len =   23, data =  runs through Dhrystone
+parse string data item offset = 104c str[ 3], len =    8, data = <clinit>
+parse string data item offset = 1056 str[ 4], len =    6, data = <init>
+parse string data item offset = 105e str[ 5], len =   12, data = Array_Glob_1
+parse string data item offset = 106c str[ 6], len =   12, data = Array_Glob_2
+parse string data item offset = 107a str[ 7], len =    9, data = Bool_Glob
+parse string data item offset = 1085 str[ 8], len =    1, data = C
+parse string data item offset = 1088 str[ 9], len =    2, data = CI
+parse string data item offset = 108c str[10], len =   11, data = Char_Comp_1
+parse string data item offset = 1099 str[11], len =   11, data = Char_Comp_2
+parse string data item offset = 10a6 str[12], len =   11, data = Char_Glob_1
+parse string data item offset = 10b3 str[13], len =   11, data = Char_Glob_2
+parse string data item offset = 10c0 str[14], len =   30, data = DHRYSTONE PROGRAM, 1'ST STRING
+parse string data item offset = 10e0 str[15], len =   30, data = DHRYSTONE PROGRAM, 2'ND STRING
+parse string data item offset = 1100 str[16], len =   30, data = DHRYSTONE PROGRAM, SOME STRING
+parse string data item offset = 1120 str[17], len =   49, data = Dhrystone Benchmark, Version 2.1 (Language: Java)
+parse string data item offset = 1153 str[18], len =   23, data = DhrystoneConstants.java
+parse string data item offset = 116c str[19], len =    5, data = Discr
+parse string data item offset = 1173 str[20], len =    9, data = Enum_Comp
+parse string data item offset = 117e str[21], len =   11, data = Enum_Comp_2
+parse string data item offset = 118b str[22], len =   18, data = Execution starts, 
+parse string data item offset = 119f str[23], len =   17, data = ExitObserver.java
+parse string data item offset = 11b2 str[24], len =   12, data = First_Record
+parse string data item offset = 11c0 str[25], len =    6, data = Func_1
+parse string data item offset = 11c8 str[26], len =    6, data = Func_2
+parse string data item offset = 11d0 str[27], len =    6, data = Func_3
+parse string data item offset = 11d8 str[28], len =   20, data = GlobalVariables.java
+parse string data item offset = 11ee str[29], len =    1, data = I
+parse string data item offset = 11f1 str[30], len =    3, data = ICC
+parse string data item offset = 11f6 str[31], len =    2, data = IL
+parse string data item offset = 11fa str[32], len =    7, data = Ident_1
+parse string data item offset = 1203 str[33], len =    7, data = Ident_2
+parse string data item offset = 120c str[34], len =    7, data = Ident_3
+parse string data item offset = 1215 str[35], len =    7, data = Ident_4
+parse string data item offset = 121e str[36], len =    7, data = Ident_5
+parse string data item offset = 1227 str[37], len =    8, data = Int_Comp
+parse string data item offset = 1231 str[38], len =    8, data = Int_Glob
+parse string data item offset = 123b str[39], len =    1, data = J
+parse string data item offset = 123e str[40], len =    1, data = L
+parse string data item offset = 1241 str[41], len =    2, data = LC
+parse string data item offset = 1245 str[42], len =   20, data = LDhrystoneConstants;
+parse string data item offset = 125b str[43], len =   14, data = LExitObserver;
+parse string data item offset = 126b str[44], len =   17, data = LGlobalVariables;
+parse string data item offset = 127e str[45], len =    2, data = LJ
+parse string data item offset = 1282 str[46], len =    2, data = LL
+parse string data item offset = 1286 str[47], len =    3, data = LLL
+parse string data item offset = 128b str[48], len =    5, data = LMsg;
+parse string data item offset = 1292 str[49], len =   13, data = LRecord_Type;
+parse string data item offset = 12a1 str[50], len =   26, data = Ldalvik/annotation/Throws;
+parse string data item offset = 12bd str[51], len =    6, data = Ldhry;
+parse string data item offset = 12c5 str[52], len =   19, data = Ljava/awt/TextArea;
+parse string data item offset = 12da str[53], len =   24, data = Ljava/io/BufferedReader;
+parse string data item offset = 12f4 str[54], len =   21, data = Ljava/io/IOException;
+parse string data item offset = 130b str[55], len =   21, data = Ljava/io/InputStream;
+parse string data item offset = 1322 str[56], len =   27, data = Ljava/io/InputStreamReader;
+parse string data item offset = 133f str[57], len =   22, data = Ljava/io/OutputStream;
+parse string data item offset = 1357 str[58], len =   21, data = Ljava/io/PrintStream;
+parse string data item offset = 136e str[59], len =   16, data = Ljava/io/Reader;
+parse string data item offset = 1380 str[60], len =   17, data = Ljava/lang/Class;
+parse string data item offset = 1393 str[61], len =   21, data = Ljava/lang/Exception;
+parse string data item offset = 13aa str[62], len =   19, data = Ljava/lang/Integer;
+parse string data item offset = 13bf str[63], len =   16, data = Ljava/lang/Long;
+parse string data item offset = 13d1 str[64], len =   18, data = Ljava/lang/Object;
+parse string data item offset = 13e5 str[65], len =   20, data = Ljava/lang/Runnable;
+parse string data item offset = 13fb str[66], len =   18, data = Ljava/lang/String;
+parse string data item offset = 140f str[67], len =   25, data = Ljava/lang/StringBuilder;
+parse string data item offset = 142a str[68], len =   18, data = Ljava/lang/System;
+parse string data item offset = 143e str[69], len =   25, data = Ljava/lang/reflect/Array;
+parse string data item offset = 1459 str[70], len =    8, data = Msg.java
+parse string data item offset = 1463 str[71], len =   16, data = Next_Record_Glob
+parse string data item offset = 1475 str[72], len =   14, data = Number_Of_Runs
+parse string data item offset = 1485 str[73], len =   54, data = Please give the number of runs through the benchmark: 
+parse string data item offset = 14bd str[74], len =    6, data = Proc_1
+parse string data item offset = 14c5 str[75], len =    6, data = Proc_2
+parse string data item offset = 14cd str[76], len =    6, data = Proc_3
+parse string data item offset = 14d5 str[77], len =    6, data = Proc_4
+parse string data item offset = 14dd str[78], len =    6, data = Proc_5
+parse string data item offset = 14e5 str[79], len =    6, data = Proc_6
+parse string data item offset = 14ed str[80], len =    6, data = Proc_7
+parse string data item offset = 14f5 str[81], len =    6, data = Proc_8
+parse string data item offset = 14fd str[82], len =   11, data = Record_Comp
+parse string data item offset = 150a str[83], len =   11, data = Record_Glob
+parse string data item offset = 1517 str[84], len =   16, data = Record_Type.java
+parse string data item offset = 1529 str[85], len =    8, data = Result: 
+parse string data item offset = 1533 str[86], len =   13, data = Second_Record
+parse string data item offset = 1542 str[87], len =   11, data = String_Comp
+parse string data item offset = 154f str[88], len =   13, data = String_Comp_2
+parse string data item offset = 155e str[89], len =    4, data = TYPE
+parse string data item offset = 1564 str[90], len =    1, data = V
+parse string data item offset = 1567 str[91], len =    2, data = VI
+parse string data item offset = 156b str[92], len =    4, data = VIIL
+parse string data item offset = 1571 str[93], len =    3, data = VIL
+parse string data item offset = 1576 str[94], len =    2, data = VL
+parse string data item offset = 157a str[95], len =    5, data = VLLII
+parse string data item offset = 1581 str[96], len =    3, data = VLZ
+parse string data item offset = 1586 str[97], len =    1, data = Z
+parse string data item offset = 1589 str[98], len =    2, data = ZI
+parse string data item offset = 158d str[99], len =    3, data = ZLL
+parse string data item offset = 1592 str[100], len =    2, data = [I
+parse string data item offset = 1596 str[101], len =   19, data = [Ljava/lang/String;
+parse string data item offset = 15ab str[102], len =    3, data = [[I
+parse string data item offset = 15b0 str[103], len =    6, data = append
+parse string data item offset = 15b8 str[104], len =    6, data = charAt
+parse string data item offset = 15c0 str[105], len =    9, data = compareTo
+parse string data item offset = 15cb str[106], len =   17, data = currentTimeMillis
+parse string data item offset = 15de str[107], len =    9, data = dhry.java
+parse string data item offset = 15e9 str[108], len =    3, data = err
+parse string data item offset = 15ee str[109], len =    7, data = execute
+parse string data item offset = 15f7 str[110], len =   10, data = exitNotify
+parse string data item offset = 1603 str[111], len =   12, data = exitObserver
+parse string data item offset = 1611 str[112], len =    5, data = flush
+parse string data item offset = 1618 str[113], len =    2, data = in
+parse string data item offset = 161c str[114], len =    9, data = longValue
+parse string data item offset = 1627 str[115], len =    4, data = main
+parse string data item offset = 162d str[116], len =    2, data = ms
+parse string data item offset = 1631 str[117], len =   11, data = newInstance
+parse string data item offset = 163e str[118], len =    3, data = out
+parse string data item offset = 1643 str[119], len =    5, data = print
+parse string data item offset = 164a str[120], len =   15, data = printStackTrace
+parse string data item offset = 165b str[121], len =    7, data = println
+parse string data item offset = 1664 str[122], len =    8, data = readLine
+parse string data item offset = 166e str[123], len =    3, data = run
+parse string data item offset = 1673 str[124], len =   15, data = setExitObserver
+parse string data item offset = 1684 str[125], len =    8, data = textarea
+parse string data item offset = 168e str[126], len =    8, data = toString
+parse string data item offset = 1698 str[127], len =   12, data = total time: 
+parse string data item offset = 16a6 str[128], len =    5, data = value
+parse string data item offset = 16ad str[129], len =    7, data = valueOf
+parse string data item offset = 16b6 str[130], len =    5, data = write
+parse type ids offset = 027c
+ type_ids [0], = C
+ type_ids [1], = I
+ type_ids [2], = J
+ type_ids [3], = LDhrystoneConstants;
+ type_ids [4], = LExitObserver;
+ type_ids [5], = LGlobalVariables;
+ type_ids [6], = LMsg;
+ type_ids [7], = LRecord_Type;
+ type_ids [8], = Ldalvik/annotation/Throws;
+ type_ids [9], = Ldhry;
+ type_ids [10], = Ljava/awt/TextArea;
+ type_ids [11], = Ljava/io/BufferedReader;
+ type_ids [12], = Ljava/io/IOException;
+ type_ids [13], = Ljava/io/InputStream;
+ type_ids [14], = Ljava/io/InputStreamReader;
+ type_ids [15], = Ljava/io/OutputStream;
+ type_ids [16], = Ljava/io/PrintStream;
+ type_ids [17], = Ljava/io/Reader;
+ type_ids [18], = Ljava/lang/Class;
+ type_ids [19], = Ljava/lang/Exception;
+ type_ids [20], = Ljava/lang/Integer;
+ type_ids [21], = Ljava/lang/Long;
+ type_ids [22], = Ljava/lang/Object;
+ type_ids [23], = Ljava/lang/Runnable;
+ type_ids [24], = Ljava/lang/String;
+ type_ids [25], = Ljava/lang/StringBuilder;
+ type_ids [26], = Ljava/lang/System;
+ type_ids [27], = Ljava/lang/reflect/Array;
+ type_ids [28], = V
+ type_ids [29], = Z
+ type_ids [30], = [I
+ type_ids [31], = [Ljava/lang/String;
+ type_ids [32], = [[I
+parse proto ids offset = 0300
+ proto_id_item [0], CI, type_id = 0 C, parameters_off = 00000f88
+ proto_typ_list[0] offset 0x251b168 proto_type_list[0].size = 1
+item[0], type_idx = 1, type = I
+ proto_id_item [1], ICC, type_id = 1 I, parameters_off = 00000f90
+ proto_typ_list[1] offset 0x251b170 proto_type_list[1].size = 2
+item[0], type_idx = 0, type = C
+item[1], type_idx = 0, type = C
+ proto_id_item [2], IL, type_id = 1 I, parameters_off = 00000f98
+ proto_typ_list[2] offset 0x251b178 proto_type_list[2].size = 1
+item[0], type_idx = 24, type = Ljava/lang/String;
+ proto_id_item [3], J, type_id = 2 J, parameters_off = 00000000
+ proto_id_item [4], LL, type_id = 21 Ljava/lang/Long;, parameters_off = 00000f98
+ proto_typ_list[4] offset 0x251b178 proto_type_list[4].size = 1
+item[0], type_idx = 24, type = Ljava/lang/String;
+ proto_id_item [5], LLL, type_id = 22 Ljava/lang/Object;, parameters_off = 00000fa0
+ proto_typ_list[5] offset 0x251b180 proto_type_list[5].size = 2
+item[0], type_idx = 18, type = Ljava/lang/Class;
+item[1], type_idx = 30, type = [I
+ proto_id_item [6], L, type_id = 24 Ljava/lang/String;, parameters_off = 00000000
+ proto_id_item [7], LC, type_id = 25 Ljava/lang/StringBuilder;, parameters_off = 00000fa8
+ proto_typ_list[7] offset 0x251b188 proto_type_list[7].size = 1
+item[0], type_idx = 0, type = C
+ proto_id_item [8], LJ, type_id = 25 Ljava/lang/StringBuilder;, parameters_off = 00000fb0
+ proto_typ_list[8] offset 0x251b190 proto_type_list[8].size = 1
+item[0], type_idx = 2, type = J
+ proto_id_item [9], LL, type_id = 25 Ljava/lang/StringBuilder;, parameters_off = 00000f98
+ proto_typ_list[9] offset 0x251b178 proto_type_list[9].size = 1
+item[0], type_idx = 24, type = Ljava/lang/String;
+ proto_id_item [10], V, type_id = 28 V, parameters_off = 00000000
+ proto_id_item [11], VI, type_id = 28 V, parameters_off = 00000f88
+ proto_typ_list[11] offset 0x251b168 proto_type_list[11].size = 1
+item[0], type_idx = 1, type = I
+ proto_id_item [12], VIIL, type_id = 28 V, parameters_off = 00000fb8
+ proto_typ_list[12] offset 0x251b198 proto_type_list[12].size = 3
+item[0], type_idx = 1, type = I
+item[1], type_idx = 1, type = I
+item[2], type_idx = 30, type = [I
+ proto_id_item [13], VIL, type_id = 28 V, parameters_off = 00000fc4
+ proto_typ_list[13] offset 0x251b1a4 proto_type_list[13].size = 2
+item[0], type_idx = 1, type = I
+item[1], type_idx = 30, type = [I
+ proto_id_item [14], VL, type_id = 28 V, parameters_off = 00000fcc
+ proto_typ_list[14] offset 0x251b1ac proto_type_list[14].size = 1
+item[0], type_idx = 4, type = LExitObserver;
+ proto_id_item [15], VL, type_id = 28 V, parameters_off = 00000fd4
+ proto_typ_list[15] offset 0x251b1b4 proto_type_list[15].size = 1
+item[0], type_idx = 7, type = LRecord_Type;
+ proto_id_item [16], VL, type_id = 28 V, parameters_off = 00000fdc
+ proto_typ_list[16] offset 0x251b1bc proto_type_list[16].size = 1
+item[0], type_idx = 10, type = Ljava/awt/TextArea;
+ proto_id_item [17], VL, type_id = 28 V, parameters_off = 00000fe4
+ proto_typ_list[17] offset 0x251b1c4 proto_type_list[17].size = 1
+item[0], type_idx = 13, type = Ljava/io/InputStream;
+ proto_id_item [18], VLZ, type_id = 28 V, parameters_off = 00000fec
+ proto_typ_list[18] offset 0x251b1cc proto_type_list[18].size = 2
+item[0], type_idx = 15, type = Ljava/io/OutputStream;
+item[1], type_idx = 29, type = Z
+ proto_id_item [19], VL, type_id = 28 V, parameters_off = 00000ff4
+ proto_typ_list[19] offset 0x251b1d4 proto_type_list[19].size = 1
+item[0], type_idx = 17, type = Ljava/io/Reader;
+ proto_id_item [20], VL, type_id = 28 V, parameters_off = 00000f98
+ proto_typ_list[20] offset 0x251b178 proto_type_list[20].size = 1
+item[0], type_idx = 24, type = Ljava/lang/String;
+ proto_id_item [21], VL, type_id = 28 V, parameters_off = 00000ffc
+ proto_typ_list[21] offset 0x251b1dc proto_type_list[21].size = 1
+item[0], type_idx = 30, type = [I
+ proto_id_item [22], VLLII, type_id = 28 V, parameters_off = 00001004
+ proto_typ_list[22] offset 0x251b1e4 proto_type_list[22].size = 4
+item[0], type_idx = 30, type = [I
+item[1], type_idx = 32, type = [[I
+item[2], type_idx = 1, type = I
+item[3], type_idx = 1, type = I
+ proto_id_item [23], VL, type_id = 28 V, parameters_off = 00001010
+ proto_typ_list[23] offset 0x251b1f0 proto_type_list[23].size = 1
+item[0], type_idx = 31, type = [Ljava/lang/String;
+ proto_id_item [24], ZI, type_id = 29 Z, parameters_off = 00000f88
+ proto_typ_list[24] offset 0x251b168 proto_type_list[24].size = 1
+item[0], type_idx = 1, type = I
+ proto_id_item [25], ZLL, type_id = 29 Z, parameters_off = 00001018
+ proto_typ_list[25] offset 0x251b1f8 proto_type_list[25].size = 2
+item[0], type_idx = 24, type = Ljava/lang/String;
+item[1], type_idx = 24, type = Ljava/lang/String;
+parse feild ids offset = 0438
+    the parsed field include instance & static data
+dex->header.fieldIdsSize = 42
+ field_id_item [0], class_id = 3 LDhrystoneConstants;, type_id = 1 I, name_idx=32 Ident_1
+ field_id_item [1], class_id = 3 LDhrystoneConstants;, type_id = 1 I, name_idx=33 Ident_2
+ field_id_item [2], class_id = 3 LDhrystoneConstants;, type_id = 1 I, name_idx=34 Ident_3
+ field_id_item [3], class_id = 3 LDhrystoneConstants;, type_id = 1 I, name_idx=35 Ident_4
+ field_id_item [4], class_id = 3 LDhrystoneConstants;, type_id = 1 I, name_idx=36 Ident_5
+ field_id_item [5], class_id = 5 LGlobalVariables;, type_id = 30 [I, name_idx=5 Array_Glob_1
+ field_id_item [6], class_id = 5 LGlobalVariables;, type_id = 32 [[I, name_idx=6 Array_Glob_2
+ field_id_item [7], class_id = 5 LGlobalVariables;, type_id = 29 Z, name_idx=7 Bool_Glob
+ field_id_item [8], class_id = 5 LGlobalVariables;, type_id = 0 C, name_idx=12 Char_Glob_1
+ field_id_item [9], class_id = 5 LGlobalVariables;, type_id = 0 C, name_idx=13 Char_Glob_2
+ field_id_item [10], class_id = 5 LGlobalVariables;, type_id = 7 LRecord_Type;, name_idx=24 First_Record
+ field_id_item [11], class_id = 5 LGlobalVariables;, type_id = 1 I, name_idx=38 Int_Glob
+ field_id_item [12], class_id = 5 LGlobalVariables;, type_id = 7 LRecord_Type;, name_idx=71 Next_Record_Glob
+ field_id_item [13], class_id = 5 LGlobalVariables;, type_id = 7 LRecord_Type;, name_idx=83 Record_Glob
+ field_id_item [14], class_id = 5 LGlobalVariables;, type_id = 7 LRecord_Type;, name_idx=86 Second_Record
+ field_id_item [15], class_id = 6 LMsg;, type_id = 16 Ljava/io/PrintStream;, name_idx=118 out
+ field_id_item [16], class_id = 6 LMsg;, type_id = 10 Ljava/awt/TextArea;, name_idx=125 textarea
+ field_id_item [17], class_id = 7 LRecord_Type;, type_id = 0 C, name_idx=10 Char_Comp_1
+ field_id_item [18], class_id = 7 LRecord_Type;, type_id = 0 C, name_idx=11 Char_Comp_2
+ field_id_item [19], class_id = 7 LRecord_Type;, type_id = 1 I, name_idx=19 Discr
+ field_id_item [20], class_id = 7 LRecord_Type;, type_id = 1 I, name_idx=20 Enum_Comp
+ field_id_item [21], class_id = 7 LRecord_Type;, type_id = 1 I, name_idx=21 Enum_Comp_2
+ field_id_item [22], class_id = 7 LRecord_Type;, type_id = 1 I, name_idx=37 Int_Comp
+ field_id_item [23], class_id = 7 LRecord_Type;, type_id = 7 LRecord_Type;, name_idx=82 Record_Comp
+ field_id_item [24], class_id = 7 LRecord_Type;, type_id = 24 Ljava/lang/String;, name_idx=87 String_Comp
+ field_id_item [25], class_id = 7 LRecord_Type;, type_id = 24 Ljava/lang/String;, name_idx=88 String_Comp_2
+ field_id_item [26], class_id = 9 Ldhry;, type_id = 30 [I, name_idx=5 Array_Glob_1
+ field_id_item [27], class_id = 9 Ldhry;, type_id = 32 [[I, name_idx=6 Array_Glob_2
+ field_id_item [28], class_id = 9 Ldhry;, type_id = 29 Z, name_idx=7 Bool_Glob
+ field_id_item [29], class_id = 9 Ldhry;, type_id = 0 C, name_idx=12 Char_Glob_1
+ field_id_item [30], class_id = 9 Ldhry;, type_id = 0 C, name_idx=13 Char_Glob_2
+ field_id_item [31], class_id = 9 Ldhry;, type_id = 7 LRecord_Type;, name_idx=24 First_Record
+ field_id_item [32], class_id = 9 Ldhry;, type_id = 1 I, name_idx=38 Int_Glob
+ field_id_item [33], class_id = 9 Ldhry;, type_id = 7 LRecord_Type;, name_idx=71 Next_Record_Glob
+ field_id_item [34], class_id = 9 Ldhry;, type_id = 2 J, name_idx=72 Number_Of_Runs
+ field_id_item [35], class_id = 9 Ldhry;, type_id = 7 LRecord_Type;, name_idx=83 Record_Glob
+ field_id_item [36], class_id = 9 Ldhry;, type_id = 7 LRecord_Type;, name_idx=86 Second_Record
+ field_id_item [37], class_id = 9 Ldhry;, type_id = 4 LExitObserver;, name_idx=111 exitObserver
+ field_id_item [38], class_id = 20 Ljava/lang/Integer;, type_id = 18 Ljava/lang/Class;, name_idx=89 TYPE
+ field_id_item [39], class_id = 26 Ljava/lang/System;, type_id = 16 Ljava/io/PrintStream;, name_idx=108 err
+ field_id_item [40], class_id = 26 Ljava/lang/System;, type_id = 13 Ljava/io/InputStream;, name_idx=113 in
+ field_id_item [41], class_id = 26 Ljava/lang/System;, type_id = 16 Ljava/io/PrintStream;, name_idx=118 out
+parse method ids offset = 0588
+ method[0], cls_id = 3, proto_id = 10, name_id = 4, <init>
+ method[1], cls_id = 4, proto_id = 10, name_id = 110, exitNotify
+ method[2], cls_id = 5, proto_id = 10, name_id = 3, <clinit>
+ method[3], cls_id = 5, proto_id = 10, name_id = 4, <init>
+ method[4], cls_id = 6, proto_id = 16, name_id = 4, <init>
+ method[5], cls_id = 6, proto_id = 11, name_id = 130, write
+ method[6], cls_id = 7, proto_id = 10, name_id = 4, <init>
+ method[7], cls_id = 9, proto_id = 10, name_id = 4, <init>
+ method[8], cls_id = 9, proto_id = 1, name_id = 25, Func_1
+ method[9], cls_id = 9, proto_id = 25, name_id = 26, Func_2
+ method[10], cls_id = 9, proto_id = 24, name_id = 27, Func_3
+ method[11], cls_id = 9, proto_id = 15, name_id = 74, Proc_1
+ method[12], cls_id = 9, proto_id = 21, name_id = 75, Proc_2
+ method[13], cls_id = 9, proto_id = 15, name_id = 76, Proc_3
+ method[14], cls_id = 9, proto_id = 10, name_id = 77, Proc_4
+ method[15], cls_id = 9, proto_id = 10, name_id = 78, Proc_5
+ method[16], cls_id = 9, proto_id = 13, name_id = 79, Proc_6
+ method[17], cls_id = 9, proto_id = 12, name_id = 80, Proc_7
+ method[18], cls_id = 9, proto_id = 22, name_id = 81, Proc_8
+ method[19], cls_id = 9, proto_id = 10, name_id = 109, execute
+ method[20], cls_id = 9, proto_id = 23, name_id = 115, main
+ method[21], cls_id = 9, proto_id = 10, name_id = 123, run
+ method[22], cls_id = 9, proto_id = 14, name_id = 124, setExitObserver
+ method[23], cls_id = 10, proto_id = 20, name_id = 103, append
+ method[24], cls_id = 11, proto_id = 19, name_id = 4, <init>
+ method[25], cls_id = 11, proto_id = 6, name_id = 122, readLine
+ method[26], cls_id = 14, proto_id = 17, name_id = 4, <init>
+ method[27], cls_id = 15, proto_id = 10, name_id = 4, <init>
+ method[28], cls_id = 16, proto_id = 18, name_id = 4, <init>
+ method[29], cls_id = 16, proto_id = 10, name_id = 112, flush
+ method[30], cls_id = 16, proto_id = 20, name_id = 119, print
+ method[31], cls_id = 16, proto_id = 10, name_id = 121, println
+ method[32], cls_id = 16, proto_id = 20, name_id = 121, println
+ method[33], cls_id = 16, proto_id = 11, name_id = 130, write
+ method[34], cls_id = 19, proto_id = 10, name_id = 120, printStackTrace
+ method[35], cls_id = 21, proto_id = 3, name_id = 114, longValue
+ method[36], cls_id = 21, proto_id = 4, name_id = 129, valueOf
+ method[37], cls_id = 22, proto_id = 10, name_id = 4, <init>
+ method[38], cls_id = 24, proto_id = 0, name_id = 104, charAt
+ method[39], cls_id = 24, proto_id = 2, name_id = 105, compareTo
+ method[40], cls_id = 25, proto_id = 10, name_id = 4, <init>
+ method[41], cls_id = 25, proto_id = 7, name_id = 103, append
+ method[42], cls_id = 25, proto_id = 8, name_id = 103, append
+ method[43], cls_id = 25, proto_id = 9, name_id = 103, append
+ method[44], cls_id = 25, proto_id = 6, name_id = 126, toString
+ method[45], cls_id = 26, proto_id = 3, name_id = 106, currentTimeMillis
+ method[46], cls_id = 27, proto_id = 5, name_id = 117, newInstance
+parse class defs offset = 0700
+  - class_defs[0], cls_id = 3, super_cls_id = 22, data_off = 0x1808, source_file_idx = 18
+  - class_data_item[0] (size means count)
+    . static_fields_size = 5
+    . instance_fields_size = 0
+    . direct_method_size = 1
+    . virtual_method_size = 0
+  - static_fields = 
+    . field_id = 0 (field_idx_diff = 0), access_flags = 0019, size = 4, offset = 0
+    . field_id = 1 (field_idx_diff = 1), access_flags = 0019, size = 4, offset = 0
+    . field_id = 2 (field_idx_diff = 1), access_flags = 0019, size = 4, offset = 0
+    . field_id = 3 (field_idx_diff = 1), access_flags = 0019, size = 4, offset = 0
+    . field_id = 4 (field_idx_diff = 1), access_flags = 0019, size = 4, offset = 0
+  - instance_fields = {Empty}
+    class (LDhrystoneConstants;) instance size = 24
+  - direct_methods =
+    . encoded_method, method_id = 0 (method_idx_diff = 0), access_flag = 10001, code_off = 07c8
+      (parsing encoded method)
+      - ins_size = 1
+      - outs_size = 1
+      - registers_size = 1
+      - insns_size = 4
+  - load static data value
+    offset = 0x17fd, len = 5
+    Create new obj 0x25250a0
+    . type 0x4, arg 0, value = 0x0
+    Create new obj 0x25250c0
+    . type 0x4, arg 0, value = 0x1
+    Create new obj 0x25250e0
+    . type 0x4, arg 0, value = 0x2
+    Create new obj 0x2525100
+    . type 0x4, arg 0, value = 0x3
+    Create new obj 0x2525120
+    . type 0x4, arg 0, value = 0x4
+  - class_defs[1], cls_id = 4, super_cls_id = 22, data_off = 0x181c, source_file_idx = 23
+  - class_data_item[1] (size means count)
+    . static_fields_size = 0
+    . instance_fields_size = 0
+    . direct_method_size = 0
+    . virtual_method_size = 1
+  - static_fields = {Empty}
+  - instance_fields = {Empty}
+    class (LExitObserver;) instance size = 24
+  - virtual_methods =
+    . encoded_method, method_id = 1 (method_idx_diff = 1), access_flag = 0401, code_off = 0000
+  - class_defs[2], cls_id = 5, super_cls_id = 3, data_off = 0x1824, source_file_idx = 28
+  - class_data_item[2] (size means count)
+    . static_fields_size = 10
+    . instance_fields_size = 0
+    . direct_method_size = 2
+    . virtual_method_size = 0
+  - static_fields = 
+    . field_id = 5 (field_idx_diff = 5), access_flags = 0008, size = 8, offset = 0
+    . field_id = 6 (field_idx_diff = 1), access_flags = 0008, size = 8, offset = 0
+    . field_id = 7 (field_idx_diff = 1), access_flags = 0008, size = 1, offset = 0
+    . field_id = 8 (field_idx_diff = 1), access_flags = 0008, size = 1, offset = 0
+    . field_id = 9 (field_idx_diff = 1), access_flags = 0008, size = 1, offset = 0
+    . field_id = 10 (field_idx_diff = 1), access_flags = 0008, size = 8, offset = 0
+    . field_id = 11 (field_idx_diff = 1), access_flags = 0008, size = 4, offset = 0
+    . field_id = 12 (field_idx_diff = 1), access_flags = 0008, size = 8, offset = 0
+    . field_id = 13 (field_idx_diff = 1), access_flags = 0008, size = 8, offset = 0
+    . field_id = 14 (field_idx_diff = 1), access_flags = 0008, size = 8, offset = 0
+  - instance_fields = {Empty}
+    class (LGlobalVariables;) instance size = 24
+  - direct_methods =
+    . encoded_method, method_id = 2 (method_idx_diff = 2), access_flag = 10008, code_off = 07e0
+      (parsing encoded method)
+      - ins_size = 0
+      - outs_size = 2
+      - registers_size = 2
+      - insns_size = 35
+    . encoded_method, method_id = 3 (method_idx_diff = 1), access_flag = 10001, code_off = 0838
+      (parsing encoded method)
+      - ins_size = 1
+      - outs_size = 1
+      - registers_size = 1
+      - insns_size = 4
+  - load static data value
+    (None Value)
+    Create new obj 0x25253a0
+    init field 5 with type (Array_Glob_1) appropriate 0, size 8, obj 0x25253a0
+    Create new obj 0x25253c0
+    init field 6 with type (Array_Glob_2) appropriate 0, size 8, obj 0x25253c0
+    Create new obj 0x25253e0
+    init field 7 with type (Bool_Glob) appropriate 0, size 1, obj 0x25253e0
+    Create new obj 0x2525400
+    init field 8 with type (Char_Glob_1) appropriate 0, size 1, obj 0x2525400
+    Create new obj 0x2525420
+    init field 9 with type (Char_Glob_2) appropriate 0, size 1, obj 0x2525420
+    Create new obj 0x2525440
+    init field 10 with type (First_Record) appropriate 0, size 8, obj 0x2525440
+    Create new obj 0x2525460
+    init field 11 with type (Int_Glob) appropriate 0, size 4, obj 0x2525460
+    Create new obj 0x2525480
+    init field 12 with type (Next_Record_Glob) appropriate 0, size 8, obj 0x2525480
+    Create new obj 0x25254a0
+    init field 13 with type (Record_Glob) appropriate 0, size 8, obj 0x25254a0
+    Create new obj 0x25254c0
+    init field 14 with type (Second_Record) appropriate 0, size 8, obj 0x25254c0
+  - class_defs[3], cls_id = 6, super_cls_id = 15, data_off = 0x1848, source_file_idx = 70
+  - class_data_item[3] (size means count)
+    . static_fields_size = 1
+    . instance_fields_size = 1
+    . direct_method_size = 1
+    . virtual_method_size = 1
+  - static_fields = 
+    . field_id = 15 (field_idx_diff = 15), access_flags = 0009, size = 8, offset = 0
+  - instance_fields = 
+    (super_class (Ljava/io/OutputStream;) size (24))
+    . field_id = 16 (field_idx_diff = 16), access_flags = 0000, size = 8, offset = 24
+    class (LMsg;) instance size = 32
+  - direct_methods =
+    . encoded_method, method_id = 4 (method_idx_diff = 4), access_flag = 10000, code_off = 0850
+      (parsing encoded method)
+      - ins_size = 2
+      - outs_size = 3
+      - registers_size = 4
+      - insns_size = 14
+  - virtual_methods =
+    . encoded_method, method_id = 5 (method_idx_diff = 5), access_flag = 0001, code_off = 087c
+      (parsing encoded method)
+      - ins_size = 2
+      - outs_size = 2
+      - registers_size = 5
+      - insns_size = 36
+  - load static data value
+    (None Value)
+    Create new obj 0x2525620
+    init field 15 with type (out) appropriate 0, size 8, obj 0x2525620
+  - class_defs[4], cls_id = 7, super_cls_id = 22, data_off = 0x185a, source_file_idx = 84
+  - class_data_item[4] (size means count)
+    . static_fields_size = 0
+    . instance_fields_size = 9
+    . direct_method_size = 1
+    . virtual_method_size = 0
+  - static_fields = {Empty}
+  - instance_fields = 
+    (super_class (Ljava/lang/Object;) size (24))
+    . field_id = 17 (field_idx_diff = 17), access_flags = 0000, size = 1, offset = 24
+    . field_id = 18 (field_idx_diff = 1), access_flags = 0000, size = 1, offset = 25
+    . field_id = 19 (field_idx_diff = 1), access_flags = 0000, size = 4, offset = 26
+    . field_id = 20 (field_idx_diff = 1), access_flags = 0000, size = 4, offset = 30
+    . field_id = 21 (field_idx_diff = 1), access_flags = 0000, size = 4, offset = 34
+    . field_id = 22 (field_idx_diff = 1), access_flags = 0000, size = 4, offset = 38
+    . field_id = 23 (field_idx_diff = 1), access_flags = 0000, size = 8, offset = 42
+    . field_id = 24 (field_idx_diff = 1), access_flags = 0000, size = 8, offset = 50
+    . field_id = 25 (field_idx_diff = 1), access_flags = 0000, size = 8, offset = 58
+    class (LRecord_Type;) instance size = 66
+  - direct_methods =
+    . encoded_method, method_id = 6 (method_idx_diff = 6), access_flag = 10001, code_off = 08d4
+      (parsing encoded method)
+      - ins_size = 1
+      - outs_size = 1
+      - registers_size = 1
+      - insns_size = 4
+  - class_defs[5], cls_id = 9, super_cls_id = 5, data_off = 0x1876, source_file_idx = 107
+  - class_data_item[5] (size means count)
+    . static_fields_size = 0
+    . instance_fields_size = 2
+    . direct_method_size = 2
+    . virtual_method_size = 14
+  - static_fields = {Empty}
+  - instance_fields = 
+    (super_class (LGlobalVariables;) size (24))
+    . field_id = 34 (field_idx_diff = 34), access_flags = 0000, size = 8, offset = 24
+    . field_id = 37 (field_idx_diff = 3), access_flags = 0000, size = 8, offset = 32
+    class (Ldhry;) instance size = 40
+  - direct_methods =
+    . encoded_method, method_id = 7 (method_idx_diff = 7), access_flag = 10001, code_off = 08ec
+      (parsing encoded method)
+      - ins_size = 1
+      - outs_size = 1
+      - registers_size = 3
+      - insns_size = 9
+    . encoded_method, method_id = 20 (method_idx_diff = 13), access_flag = 0009, code_off = 0910
+      (parsing encoded method)
+      - ins_size = 1
+      - outs_size = 2
+      - registers_size = 5
+      - insns_size = 68
+  - virtual_methods =
+    . encoded_method, method_id = 8 (method_idx_diff = 8), access_flag = 0000, code_off = 09b4
+      (parsing encoded method)
+      - ins_size = 3
+      - outs_size = 0
+      - registers_size = 4
+      - insns_size = 6
+    . encoded_method, method_id = 9 (method_idx_diff = 1), access_flag = 0000, code_off = 09d0
+      (parsing encoded method)
+      - ins_size = 3
+      - outs_size = 3
+      - registers_size = 10
+      - insns_size = 53
+    . encoded_method, method_id = 10 (method_idx_diff = 1), access_flag = 0000, code_off = 0a4c
+      (parsing encoded method)
+      - ins_size = 2
+      - outs_size = 0
+      - registers_size = 3
+      - insns_size = 7
+    . encoded_method, method_id = 11 (method_idx_diff = 1), access_flag = 0000, code_off = 0a6c
+      (parsing encoded method)
+      - ins_size = 2
+      - outs_size = 4
+      - registers_size = 7
+      - insns_size = 71
+    . encoded_method, method_id = 12 (method_idx_diff = 1), access_flag = 0000, code_off = 0b0c
+      (parsing encoded method)
+      - ins_size = 2
+      - outs_size = 0
+      - registers_size = 6
+      - insns_size = 20
+    . encoded_method, method_id = 13 (method_idx_diff = 1), access_flag = 0000, code_off = 0b44
+      (parsing encoded method)
+      - ins_size = 2
+      - outs_size = 4
+      - registers_size = 6
+      - insns_size = 37
+    . encoded_method, method_id = 14 (method_idx_diff = 1), access_flag = 0000, code_off = 0ba0
+      (parsing encoded method)
+      - ins_size = 1
+      - outs_size = 0
+      - registers_size = 3
+      - insns_size = 20
+    . encoded_method, method_id = 15 (method_idx_diff = 1), access_flag = 0000, code_off = 0bd8
+      (parsing encoded method)
+      - ins_size = 1
+      - outs_size = 0
+      - registers_size = 2
+      - insns_size = 8
+    . encoded_method, method_id = 16 (method_idx_diff = 1), access_flag = 0000, code_off = 0bf8
+      (parsing encoded method)
+      - ins_size = 3
+      - outs_size = 2
+      - registers_size = 7
+      - insns_size = 54
+    . encoded_method, method_id = 17 (method_idx_diff = 1), access_flag = 0000, code_off = 0c74
+      (parsing encoded method)
+      - ins_size = 4
+      - outs_size = 0
+      - registers_size = 6
+      - insns_size = 7
+    . encoded_method, method_id = 18 (method_idx_diff = 1), access_flag = 0000, code_off = 0c94
+      (parsing encoded method)
+      - ins_size = 5
+      - outs_size = 0
+      - registers_size = 9
+      - insns_size = 48
+    . encoded_method, method_id = 19 (method_idx_diff = 1), access_flag = 0001, code_off = 0d04
+      (parsing encoded method)
+      - ins_size = 1
+      - outs_size = 5
+      - registers_size = 13
+      - insns_size = 264
+    . encoded_method, method_id = 21 (method_idx_diff = 2), access_flag = 0001, code_off = 0f24
+      (parsing encoded method)
+      - ins_size = 1
+      - outs_size = 1
+      - registers_size = 2
+      - insns_size = 13
+    . encoded_method, method_id = 22 (method_idx_diff = 1), access_flag = 0001, code_off = 0f50
+      (parsing encoded method)
+      - ins_size = 2
+      - outs_size = 0
+      - registers_size = 2
+      - insns_size = 3
+  - undef class static objects : 
+    . field_id 38, obj 0x25260c0 
+    . field_id 39, obj 0x25260f0 
+    . field_id 40, obj 0x2526120 
+    . field_id 41, obj 0x2526150 
+copy data part, offset = 0x7c0, size = 4560
+Magic Number = 0x64 0x65 0x78 0x0a 0x30 0x33 0x35 0x00 
+Checksum      = 8e ca f7 8f 
+FileSize      = 6544 (0x1990)
+headerSize    =  112 (0x0070)
+endianTag     = 305419896 (0x12345678)
+linkSize      =    0 (0x0000)
+mapOff        = 6336 (0x18c0)
+stringIdsSize =  131 (0x0083)
+stringIdsOff  =  112 (0x0070)
+typeIdsSize   =   33 (0x0021)
+typeIdsOff    =  636 (0x027c)
+protoIdsSize  =   26 (0x001a)
+protoIdsOff   =  768 (0x0300)
+fieldIdsSize  =   42 (0x002a)
+fieldIdsOff   = 1080 (0x0438)
+methodIdsSize =   47 (0x002f)
+methodIdsOff  = 1416 (0x0588)
+classDefsSize =    6 (0x0006)
+classDefsOff  = 1792 (0x0700)
+dataSize      = 4560 (0x11d0)
+dataOff       = 1984 (0x07c0)
+find main in dex->string_data_item[115]
+find main in class_defs[5], method_id = 20
+find method 1 in class of class_id[5]
+encoded_method method_id = 20, insns_size = 68
+Execute static class (0x5) initialization
+const/16 v1, #int128
+new-array v0, v1, type_id 0x001e
+    num-elem 128, each elem size 4, total 552, ptr 0x251a250, [I
+sput-object v0, field 0x0005, Array_Glob_1
+    field_id = 5 --> static_id = 0
+    field_0x0005 (original 0x25253a0) = v0 (0x251a250)
+filled-new-array type_id 0x1e, obj 0x251a480    ary content = 128,  128, 
+move-result-object v0 (val = 0x251a480)
+sget-object v1, field 0x0026, TYPE (v1 = field_0x26)
+    find field 38 from undefined class, static data 0x2526070
+    field_0x26 = 0x25260c0
+invoke-static {v1, v0} method_id 0x002e Ljava/lang/reflect/Array;,newInstance,(Ljava/lang/Class;)Ljava/lang/Object; 
+    invoke Ljava/lang/reflect/Array;/newInstance Ljava/lang/Class;
+    call java_lang_reflect_array_new_instance (Ljava/lang/Class;)
+    object 0x25260c0, total size 1064 = obj_size 40 + elem_size 8 * dim = 128, 
+    Create 1d array object 0x251a8f0, num_elem 128, elem_size 4
+    Create 1d array object 0x251ab20, num_elem 128, elem_size 4
+    Create 1d array object 0x251ad50, num_elem 128, elem_size 4
+    Create 1d array object 0x251af80, num_elem 128, elem_size 4
+    Create 1d array object 0x251b1b0, num_elem 128, elem_size 4
+    Create 1d array object 0x251b3e0, num_elem 128, elem_size 4
+    Create 1d array object 0x251b610, num_elem 128, elem_size 4
+    Create 1d array object 0x251b840, num_elem 128, elem_size 4
+    Create 1d array object 0x2527360, num_elem 128, elem_size 4
+    Create 1d array object 0x2527590, num_elem 128, elem_size 4
+    Create 1d array object 0x25277c0, num_elem 128, elem_size 4
+    Create 1d array object 0x25279f0, num_elem 128, elem_size 4
+    Create 1d array object 0x2527c20, num_elem 128, elem_size 4
+    Create 1d array object 0x2527e50, num_elem 128, elem_size 4
+    Create 1d array object 0x2528080, num_elem 128, elem_size 4
+    Create 1d array object 0x25282b0, num_elem 128, elem_size 4
+    Create 1d array object 0x25284e0, num_elem 128, elem_size 4
+    Create 1d array object 0x2528710, num_elem 128, elem_size 4
+    Create 1d array object 0x2528940, num_elem 128, elem_size 4
+    Create 1d array object 0x2528b70, num_elem 128, elem_size 4
+    Create 1d array object 0x2528da0, num_elem 128, elem_size 4
+    Create 1d array object 0x2528fd0, num_elem 128, elem_size 4
+    Create 1d array object 0x2529200, num_elem 128, elem_size 4
+    Create 1d array object 0x2529430, num_elem 128, elem_size 4
+    Create 1d array object 0x2529660, num_elem 128, elem_size 4
+    Create 1d array object 0x2529890, num_elem 128, elem_size 4
+    Create 1d array object 0x2529ac0, num_elem 128, elem_size 4
+    Create 1d array object 0x2529cf0, num_elem 128, elem_size 4
+    Create 1d array object 0x2529f20, num_elem 128, elem_size 4
+    Create 1d array object 0x252a150, num_elem 128, elem_size 4
+    Create 1d array object 0x252a380, num_elem 128, elem_size 4
+    Create 1d array object 0x252a5b0, num_elem 128, elem_size 4
+    Create 1d array object 0x252a7e0, num_elem 128, elem_size 4
+    Create 1d array object 0x252aa10, num_elem 128, elem_size 4
+    Create 1d array object 0x252ac40, num_elem 128, elem_size 4
+    Create 1d array object 0x252ae70, num_elem 128, elem_size 4
+    Create 1d array object 0x252b0a0, num_elem 128, elem_size 4
+    Create 1d array object 0x252b2d0, num_elem 128, elem_size 4
+    Create 1d array object 0x252b500, num_elem 128, elem_size 4
+    Create 1d array object 0x252b730, num_elem 128, elem_size 4
+    Create 1d array object 0x252b960, num_elem 128, elem_size 4
+    Create 1d array object 0x252bb90, num_elem 128, elem_size 4
+    Create 1d array object 0x252bdc0, num_elem 128, elem_size 4
+    Create 1d array object 0x252bff0, num_elem 128, elem_size 4
+    Create 1d array object 0x252c220, num_elem 128, elem_size 4
+    Create 1d array object 0x252c450, num_elem 128, elem_size 4
+    Create 1d array object 0x252c680, num_elem 128, elem_size 4
+    Create 1d array object 0x252c8b0, num_elem 128, elem_size 4
+    Create 1d array object 0x252cae0, num_elem 128, elem_size 4
+    Create 1d array object 0x252cd10, num_elem 128, elem_size 4
+    Create 1d array object 0x252cf40, num_elem 128, elem_size 4
+    Create 1d array object 0x252d170, num_elem 128, elem_size 4
+    Create 1d array object 0x252d3a0, num_elem 128, elem_size 4
+    Create 1d array object 0x252d5d0, num_elem 128, elem_size 4
+    Create 1d array object 0x252d800, num_elem 128, elem_size 4
+    Create 1d array object 0x252da30, num_elem 128, elem_size 4
+    Create 1d array object 0x252dc60, num_elem 128, elem_size 4
+    Create 1d array object 0x252de90, num_elem 128, elem_size 4
+    Create 1d array object 0x252e0c0, num_elem 128, elem_size 4
+    Create 1d array object 0x252e2f0, num_elem 128, elem_size 4
+    Create 1d array object 0x252e520, num_elem 128, elem_size 4
+    Create 1d array object 0x252e750, num_elem 128, elem_size 4
+    Create 1d array object 0x252e980, num_elem 128, elem_size 4
+    Create 1d array object 0x252ebb0, num_elem 128, elem_size 4
+    Create 1d array object 0x252ede0, num_elem 128, elem_size 4
+    Create 1d array object 0x252f010, num_elem 128, elem_size 4
+    Create 1d array object 0x252f240, num_elem 128, elem_size 4
+    Create 1d array object 0x252f470, num_elem 128, elem_size 4
+    Create 1d array object 0x252f6a0, num_elem 128, elem_size 4
+    Create 1d array object 0x252f8d0, num_elem 128, elem_size 4
+    Create 1d array object 0x252fb00, num_elem 128, elem_size 4
+    Create 1d array object 0x252fd30, num_elem 128, elem_size 4
+    Create 1d array object 0x252ff60, num_elem 128, elem_size 4
+    Create 1d array object 0x2530190, num_elem 128, elem_size 4
+    Create 1d array object 0x25303c0, num_elem 128, elem_size 4
+    Create 1d array object 0x25305f0, num_elem 128, elem_size 4
+    Create 1d array object 0x2530820, num_elem 128, elem_size 4
+    Create 1d array object 0x2530a50, num_elem 128, elem_size 4
+    Create 1d array object 0x2530c80, num_elem 128, elem_size 4
+    Create 1d array object 0x2530eb0, num_elem 128, elem_size 4
+    Create 1d array object 0x25310e0, num_elem 128, elem_size 4
+    Create 1d array object 0x2531310, num_elem 128, elem_size 4
+    Create 1d array object 0x2531540, num_elem 128, elem_size 4
+    Create 1d array object 0x2531770, num_elem 128, elem_size 4
+    Create 1d array object 0x25319a0, num_elem 128, elem_size 4
+    Create 1d array object 0x2531bd0, num_elem 128, elem_size 4
+    Create 1d array object 0x2531e00, num_elem 128, elem_size 4
+    Create 1d array object 0x2532030, num_elem 128, elem_size 4
+    Create 1d array object 0x2532260, num_elem 128, elem_size 4
+    Create 1d array object 0x2532490, num_elem 128, elem_size 4
+    Create 1d array object 0x25326c0, num_elem 128, elem_size 4
+    Create 1d array object 0x25328f0, num_elem 128, elem_size 4
+    Create 1d array object 0x2532b20, num_elem 128, elem_size 4
+    Create 1d array object 0x2532d50, num_elem 128, elem_size 4
+    Create 1d array object 0x2532f80, num_elem 128, elem_size 4
+    Create 1d array object 0x25331b0, num_elem 128, elem_size 4
+    Create 1d array object 0x25333e0, num_elem 128, elem_size 4
+    Create 1d array object 0x2533610, num_elem 128, elem_size 4
+    Create 1d array object 0x2533840, num_elem 128, elem_size 4
+    Create 1d array object 0x2533a70, num_elem 128, elem_size 4
+    Create 1d array object 0x2533ca0, num_elem 128, elem_size 4
+    Create 1d array object 0x2533ed0, num_elem 128, elem_size 4
+    Create 1d array object 0x2534100, num_elem 128, elem_size 4
+    Create 1d array object 0x2534330, num_elem 128, elem_size 4
+    Create 1d array object 0x2534560, num_elem 128, elem_size 4
+    Create 1d array object 0x2534790, num_elem 128, elem_size 4
+    Create 1d array object 0x25349c0, num_elem 128, elem_size 4
+    Create 1d array object 0x2534bf0, num_elem 128, elem_size 4
+    Create 1d array object 0x2534e20, num_elem 128, elem_size 4
+    Create 1d array object 0x2535050, num_elem 128, elem_size 4
+    Create 1d array object 0x2535280, num_elem 128, elem_size 4
+    Create 1d array object 0x25354b0, num_elem 128, elem_size 4
+    Create 1d array object 0x25356e0, num_elem 128, elem_size 4
+    Create 1d array object 0x2535910, num_elem 128, elem_size 4
+    Create 1d array object 0x2535b40, num_elem 128, elem_size 4
+    Create 1d array object 0x2535d70, num_elem 128, elem_size 4
+    Create 1d array object 0x2535fa0, num_elem 128, elem_size 4
+    Create 1d array object 0x25361d0, num_elem 128, elem_size 4
+    Create 1d array object 0x2536400, num_elem 128, elem_size 4
+    Create 1d array object 0x2536630, num_elem 128, elem_size 4
+    Create 1d array object 0x2536860, num_elem 128, elem_size 4
+    Create 1d array object 0x2536a90, num_elem 128, elem_size 4
+    Create 1d array object 0x2536cc0, num_elem 128, elem_size 4
+    Create 1d array object 0x2536ef0, num_elem 128, elem_size 4
+    Create 1d array object 0x2537120, num_elem 128, elem_size 4
+    Create 1d array object 0x2537350, num_elem 128, elem_size 4
+    Create 1d array object 0x2537580, num_elem 128, elem_size 4
+    Create 1d array object 0x25377b0, num_elem 128, elem_size 4
+move-result-object v0 (val = 0x251a4c0)
+check-cast v0, type 0x20 (obj 0x251a4c0)
+    Warning! check-cast is not implement completely
+sput-object v0, field 0x0006, Array_Glob_2
+    field_id = 6 --> static_id = 1
+    field_0x0006 (original 0x25253c0) = v0 (0x251a4c0)
+new-instance v0, type_id 0x0007, size 66, ptr 0x251ba70, LRecord_Type;
+invoke-direct, {v0} method_id 0x0006 LRecord_Type;,<init>,()V 
+    push v0 (0x251ba70) to stack
+    mv v0 (0x251ba70) to v0
+    save invoke info & pc (0x2c)
+invoke-direct, {v0} method_id 0x0025 Ljava/lang/Object;,<init>,()V 
+    invoke Ljava/lang/Object;/<init> (null)
+    call java.lang.object.<init> ((null))
+return-void
+    restore invoke info & pc (0x2c)
+    pop (0x251ba70) back to v0
+sput-object v0, field 0x000a, First_Record
+    field_id = 10 --> static_id = 5
+    field_0x000a (original 0x2525440) = v0 (0x251ba70)
+new-instance v0, type_id 0x0007, size 66, ptr 0x251bac0, LRecord_Type;
+invoke-direct, {v0} method_id 0x0006 LRecord_Type;,<init>,()V 
+    push v0 (0x251bac0) to stack
+    mv v0 (0x251bac0) to v0
+    save invoke info & pc (0x3a)
+invoke-direct, {v0} method_id 0x0025 Ljava/lang/Object;,<init>,()V 
+    invoke Ljava/lang/Object;/<init> (null)
+    call java.lang.object.<init> ((null))
+return-void
+    restore invoke info & pc (0x3a)
+    pop (0x251bac0) back to v0
+sput-object v0, field 0x000e, Second_Record
+    field_id = 14 --> static_id = 9
+    field_0x000e (original 0x25254c0) = v0 (0x251bac0)
+return-void
+sget-object v0, field 0x0027, err (v0 = field_0x27)
+    find field 39 from undefined class, static data 0x2526080
+    field_0x27 = 0x25260f0
+sput-object v0, field 0x000f, out
+    field_id = 15 --> static_id = 0
+    field_0x000f (original 0x2525620) = v0 (0x25260f0)
+sget-object v0, field 0x000f, out (v0 = field_0xf)
+    field_id = 15 --> static_id = 0
+    field_0xf = 0x25260f0
+const-string v1, string_id 0x0011
+invoke-virtual {v0, v1} method_id 0x0020 Ljava/io/PrintStream;,println,(Ljava/lang/String;)V 
+    invoke Ljava/io/PrintStream;/println Ljava/lang/String;
+    call java.io.PrintStream.println
+    Dhrystone Benchmark, Version 2.1 (Language: Java)
+sget-object v0, field 0x000f, out (v0 = field_0xf)
+    field_id = 15 --> static_id = 0
+    field_0xf = 0x25260f0
+invoke-virtual, {v0} method_id 0x001f Ljava/io/PrintStream;,println,()V 
+    invoke Ljava/io/PrintStream;/println (null)
+    call java.io.PrintStream.println
+    (null)
+sget-object v0, field 0x000f, out (v0 = field_0xf)
+    field_id = 15 --> static_id = 0
+    field_0xf = 0x25260f0
+const-string v1, string_id 0x0049
+invoke-virtual {v0, v1} method_id 0x001e Ljava/io/PrintStream;,print,(Ljava/lang/String;)V 
+    invoke Ljava/io/PrintStream;/print Ljava/lang/String;
+    call java.io.PrintStream.println
+    Please give the number of runs through the benchmark: 
+sget-object v0, field 0x000f, out (v0 = field_0xf)
+    field_id = 15 --> static_id = 0
+    field_0xf = 0x25260f0
+invoke-virtual, {v0} method_id 0x001d Ljava/io/PrintStream;,flush,()V 
+    invoke Ljava/io/PrintStream;/flush (null)
+    call java.io.PrintStream.flush
+new-instance v0, type_id 0x0009, size 40, ptr 0x251bb10, Ldhry;
+invoke-direct, {v0} method_id 0x0007 Ldhry;,<init>,()V 
+    push v0 (0x251bb10) to stack
+    push v1 (0x49) to stack
+    push v2 (0x0) to stack
+    mv v0 (0x251bb10) to v2
+    save invoke info & pc (0x3c)
+invoke-direct, {v2} method_id 0x0003 LGlobalVariables;,<init>,()V 
+    push v0 (0x251bb10) to stack
+    mv v2 (0x251bb10) to v0
+    save invoke info & pc (0x0)
+invoke-direct, {v0} method_id 0x0000 LDhrystoneConstants;,<init>,()V 
+    push v0 (0x251bb10) to stack
+    mv v0 (0x251bb10) to v0
+    save invoke info & pc (0x0)
+invoke-direct, {v0} method_id 0x0025 Ljava/lang/Object;,<init>,()V 
+    invoke Ljava/lang/Object;/<init> (null)
+    call java.lang.object.<init> ((null))
+return-void
+    restore invoke info & pc (0x0)
+    pop (0x251bb10) back to v0
+return-void
+    restore invoke info & pc (0x0)
+    pop (0x251bb10) back to v0
+const-wide/32 v0, #int10000000
+iput-wide v0, v2, field 0x0022, Number_Of_Runs (v2 (0x251bb10)->field_0x22 = v0 (0x989680 L))
+    offset (24), field_ptr (0x251bb28), *field_ptr (0)
+return-void
+    restore invoke info & pc (0x3c)
+    pop (0x0) back to v2
+    pop (0x49) back to v1
+    pop (0x251bb10) back to v0
+new-instance v1, type_id 0x000b, size 24, ptr 0x251bb40, Ljava/io/BufferedReader;
+new-instance v2, type_id 0x000e, size 24, ptr 0x251bb60, Ljava/io/InputStreamReader;
+sget-object v3, field 0x0028, in (v3 = field_0x28)
+    find field 40 from undefined class, static data 0x2526090
+    field_0x28 = 0x2526120
+invoke-direct {v2, v3} method_id 0x001a Ljava/io/InputStreamReader;,<init>,(Ljava/io/InputStream;)V 
+    invoke Ljava/io/InputStreamReader;/<init> Ljava/io/InputStream;
+    call java_io_input_stream_reader_init.<init> (Ljava/io/InputStream;)
+invoke-direct {v1, v2} method_id 0x0018 Ljava/io/BufferedReader;,<init>,(Ljava/io/Reader;)V 
+    invoke Ljava/io/BufferedReader;/<init> Ljava/io/Reader;
+    call java_io_buffered_reader_init.<init> (Ljava/io/Reader;)
+invoke-virtual, {v1} method_id 0x0019 Ljava/io/BufferedReader;,readLine,()Ljava/lang/String; 
+    invoke Ljava/io/BufferedReader;/readLine (null)
+    Create new obj 0x2537a50
+    call java_io_buffered_reader ((null)), read string = 3
+    store obj (0x2537a50) to result, other_data = 0x25379e0
+move-result-object v1 (val = 0x2537a50)
+invoke-static, {v1} method_id 0x0024 Ljava/lang/Long;,valueOf,(Ljava/lang/String;)Ljava/lang/Long; 
+    invoke Ljava/lang/Long;/valueOf Ljava/lang/String;
+    Create new obj 0x2537a70
+    call java_lang_long_valueof (Ljava/lang/String;), val = 0x3, store obj (0x2537a70) to result
+move-result-object v1 (val = 0x2537a70)
+invoke-virtual, {v1} method_id 0x0023 Ljava/lang/Long;,longValue,()J 
+    invoke Ljava/lang/Long;/longValue (null)
+    call java_lang_long_long_value ((null)), store val (0x3) to result
+move-result-wide v1,v2 (val 0x3)
+iput-wide v1, v0, field 0x0022, Number_Of_Runs (v0 (0x251bb10)->field_0x22 = v1 (0x3 L))
+    offset (24), field_ptr (0x251bb28), *field_ptr (80)
+invoke-virtual, {v0} method_id 0x0013 Ldhry;,execute,()V 
+    push v0 (0x251bb10) to stack
+    push v1 (0x0) to stack
+    push v2 (0x30000) to stack
+    push v3 (0x2526120) to stack
+    push v4 (0x0) to stack
+    push v5 (0x0) to stack
+    push v6 (0x0) to stack
+    push v7 (0x0) to stack
+    push v8 (0x0) to stack
+    push v9 (0x0) to stack
+    push v10 (0x0) to stack
+    push v11 (0x0) to stack
+    push v12 (0x0) to stack
+    mv v0 (0x251bb10) to v12
+    save invoke info & pc (0x76)
+const/4 v0, #int1
+new-array v3, v0, type_id 0x001e
+    num-elem 1, each elem size 4, total 44, ptr 0x2537a90, [I
+const/4 v0, #int1
+new-array v4, v0, type_id 0x001e
+    num-elem 1, each elem size 4, total 44, ptr 0x2537ad0, [I
+const/4 v0, #int1
+new-array v5, v0, type_id 0x001e
+    num-elem 1, each elem size 4, total 44, ptr 0x2537b10, [I
+sget-object v0, field 0x0024, Second_Record (v0 = field_0x24)
+    find field from parent class, field_id = 36 --> parent field = 14
+    field_0x24 = 0x251bac0
+sput-object v0, field 0x0021, Next_Record_Glob
+    find field from parent class, field_id = 33 --> parent field = 12
+    field_0x0021 (original 0x2525480) = v0 (0x251bac0)
+sget-object v0, field 0x001f, First_Record (v0 = field_0x1f)
+    find field from parent class, field_id = 31 --> parent field = 10
+    field_0x1f = 0x251ba70
+sput-object v0, field 0x0023, Record_Glob
+    find field from parent class, field_id = 35 --> parent field = 13
+    field_0x0023 (original 0x25254a0) = v0 (0x251ba70)
+sget-object v0, field 0x0023, Record_Glob (v0 = field_0x23)
+    find field from parent class, field_id = 35 --> parent field = 13
+    field_0x23 = 0x251ba70
+sget-object v1, field 0x0021, Next_Record_Glob (v1 = field_0x21)
+    find field from parent class, field_id = 33 --> parent field = 12
+    field_0x21 = 0x251bac0
+iput-object v1, v0, field 0x17, Record_Comp (v0 (0x251ba70)->field_0x17 = 0x251bac0)
+    offset (42), field_ptr (0x251ba9a), *field_ptr (0x251bac0)
+sget-object v0, field 0x0023, Record_Glob (v0 = field_0x23)
+    find field from parent class, field_id = 35 --> parent field = 13
+    field_0x23 = 0x251ba70
+const/4 v1, #int0
+iput v1, v0, field 0x13, Discr (v0 (0x251ba70)->field_0x13 = v1 (0x0))
+    offset (26), field_ptr (0x251ba8a), *field_ptr (0x0)
+sget-object v0, field 0x0023, Record_Glob (v0 = field_0x23)
+    find field from parent class, field_id = 35 --> parent field = 13
+    field_0x23 = 0x251ba70
+const/4 v1, #int2
+iput v1, v0, field 0x14, Enum_Comp (v0 (0x251ba70)->field_0x14 = v1 (0x2))
+    offset (30), field_ptr (0x251ba8e), *field_ptr (0x2)
+sget-object v0, field 0x0023, Record_Glob (v0 = field_0x23)
+    find field from parent class, field_id = 35 --> parent field = 13
+    field_0x23 = 0x251ba70
+const/16 v1, #int40
+iput v1, v0, field 0x16, Int_Comp (v0 (0x251ba70)->field_0x16 = v1 (0x28))
+    offset (38), field_ptr (0x251ba96), *field_ptr (0x28)
+sget-object v0, field 0x0023, Record_Glob (v0 = field_0x23)
+    find field from parent class, field_id = 35 --> parent field = 13
+    field_0x23 = 0x251ba70
+const-string v1, string_id 0x0010
+iput-object v1, v0, field 0x18, String_Comp (v0 (0x251ba70)->field_0x18 = 0x10)
+    offset (50), field_ptr (0x251baa2), *field_ptr (0x10)
+const-string v6, string_id 0x000e
+sget-object v0, field 0x000f, out (v0 = field_0xf)
+    field_id = 15 --> static_id = 0
+    field_0xf = 0x25260f0
+new-instance v1, type_id 0x0019, size 24, ptr 0x2537b50, Ljava/lang/StringBuilder;
+invoke-direct, {v1} method_id 0x0028 Ljava/lang/StringBuilder;,<init>,()V 
+    invoke Ljava/lang/StringBuilder;/<init> (null)
+    call java.lang.StringBuilder.<init>
+const-string v2, string_id 0x0016
+invoke-virtual {v1, v2} method_id 0x002b Ljava/lang/StringBuilder;,append,(Ljava/lang/String;)Ljava/lang/StringBuilder; 
+    invoke Ljava/lang/StringBuilder;/append Ljava/lang/String;
+    call java.lang.StringBuilder.append
+move-result-object v1 (val = 0x0)
+iget-wide v7, v12, field 0x22, Number_Of_Runs (v7 v8 = v12 (0x251bb10)->field_0x22)
+    offset (24), field_ptr (0x251bb28), *field_ptr (0x3), val=3 L
+invoke-virtual {v1, v7, v8} method_id 0x002a Ljava/lang/StringBuilder;,append,(J)Ljava/lang/StringBuilder; 
+    invoke Ljava/lang/StringBuilder;/append J
+    call java.lang.StringBuilder.append
+move-result-object v1 (val = 0x0)
+const-string v2, string_id 0x0002
+invoke-virtual {v1, v2} method_id 0x002b Ljava/lang/StringBuilder;,append,(Ljava/lang/String;)Ljava/lang/StringBuilder; 
+    invoke Ljava/lang/StringBuilder;/append Ljava/lang/String;
+    call java.lang.StringBuilder.append
+move-result-object v1 (val = 0x0)
+invoke-virtual, {v1} method_id 0x002c Ljava/lang/StringBuilder;,toString,()Ljava/lang/String; 
+    invoke Ljava/lang/StringBuilder;/toString (null)
+    call java.lang.StringBuilder.toString
+move-result-object v1 (val = 0x0)
+invoke-virtual {v0, v1} method_id 0x0020 Ljava/io/PrintStream;,println,(Ljava/lang/String;)V 
+    invoke Ljava/io/PrintStream;/println Ljava/lang/String;
+    call java.io.PrintStream.println
+    Execution starts, 3 runs through Dhrystone
+invoke-static {} method_id 0x002d Ljava/lang/System;,currentTimeMillis,()J 
+    invoke Ljava/lang/System;/currentTimeMillis (null)
+    call java.lang.System.currentTimeMillis
+move-result-wide v7,v8 (val 0x1459cb2b09a)
+const/4 v0, #int1
+int-to-long v1, v0, val 1
+iget-wide v9, v12, field 0x22, Number_Of_Runs (v9 v10 = v12 (0x251bb10)->field_0x22)
+    offset (24), field_ptr (0x251bb28), *field_ptr (0x3), val=3 L
+cmp-long v1, v1 (1), v9 (3), cond = -1
+if-gtz v1 (cond -1), offset 102
+invoke-virtual, {v12} method_id 0x000f Ldhry;,Proc_5,()V 
+    push v0 (0x1) to stack
+    push v1 (0xffffffff) to stack
+    mv v12 (0x251bb10) to v1
+    save invoke info & pc (0xb6)
+const/16 v0, #int65
+    find field from parent class, field_id = 29 --> parent field = 8
+sput-char v0, field 0x001d, Char_Glob_1 (char = A, static field = 0x2525320, other_data = 0x2525410)
+const/4 v0, #int0
+    find field from parent class, field_id = 28 --> parent field = 7
+sput-boolean v0, field 0x001c, Bool_Glob (bool = 0, static field = 0x2525310, other_data = 0x25253f0)
+return-void
+    restore invoke info & pc (0xb6)
+    pop (0xffffffff) back to v1
+    pop (0x1) back to v0
+invoke-virtual, {v12} method_id 0x000e Ldhry;,Proc_4,()V 
+    push v0 (0x1) to stack
+    push v1 (0xffffffff) to stack
+    push v2 (0x10000) to stack
+    mv v12 (0x251bb10) to v2
+    save invoke info & pc (0xbc)
+    find field from parent class, field_id = 29 --> parent field = 8
+sget-char v0, field 0x001d, Char_Glob_1 (char = A, static field = 0x2525320, other_data = 0x2525410)
+const/16 v1, #int65
+if-ne v0, v1, offset 0xe (65 != 65 ?) 
+const/4 v0, #int1
+if-nez v0, offset 0x6 (1 != 0)
+const/16 v0, #int66
+    find field from parent class, field_id = 30 --> parent field = 9
+sput-char v0, field 0x001e, Char_Glob_2 (char = B, static field = 0x2525330, other_data = 0x2525430)
+return-void
+    restore invoke info & pc (0xbc)
+    pop (0x10000) back to v2
+    pop (0xffffffff) back to v1
+    pop (0x1) back to v0
+const/4 v2, #int2
+const/4 v9, #int3
+const-string v1, string_id 0x000f
+const/4 v10, #int0
+const/4 v11, #int1
+aput v11, v5, v10 (v5 (0x2537b10)->[v10 (0)] = v11 (1))
+invoke-virtual {v12, v6, v1} method_id 0x0009 Ldhry;,Func_2,(Ljava/lang/String;)Z 
+    push v0 (0x1) to stack
+    push v1 (0xf) to stack
+    push v2 (0x2) to stack
+    push v3 (0x2537a90) to stack
+    push v4 (0x2537ad0) to stack
+    push v5 (0x2537b10) to stack
+    push v6 (0xe) to stack
+    push v7 (0x1450000) to stack
+    push v8 (0xb09a9cb2) to stack
+    push v9 (0x3) to stack
+    mv v12 (0x251bb10) to v7
+    mv v6 (0xe) to v8
+    mv v1 (0xf) to v9
+    save invoke info & pc (0xd2)
+const/4 v4, #int2
+const/4 v0, #int1
+const/4 v1, #int0
+move v3,v1
+move v2,v4
+if-gt v2, v4, offset 0x17 (2 > 2 ?) 
+invoke-virtual {v8, v2} method_id 0x0026 Ljava/lang/String;,charAt,(I)C 
+    invoke Ljava/lang/String;/charAt I
+    call java.lang.String.charAt
+    string_id 14, index 2 = R
+move-result v5 (0x52)
+add-int/lit8 v6, v2, #int1 (3 = 2 + 1)
+invoke-virtual {v9, v6} method_id 0x0026 Ljava/lang/String;,charAt,(I)C 
+    invoke Ljava/lang/String;/charAt I
+    call java.lang.String.charAt
+    string_id 15, index 3 = Y
+move-result v6 (0x59)
+invoke-virtual {v7, v5, v6} method_id 0x0008 Ldhry;,Func_1,(C)I 
+    push v0 (0x1) to stack
+    push v1 (0x0) to stack
+    push v2 (0x2) to stack
+    push v3 (0x0) to stack
+    mv v7 (0x251bb10) to v1
+    mv v5 (0x52) to v2
+    mv v6 (0x59) to v3
+    save invoke info & pc (0x22)
+if-eq v2, v3, offset 0x4 (82 == 89 ?) 
+const/4 v0, #int0
+return v0 (0)
+    restore invoke info & pc (0x22)
+    pop (0x0) back to v3
+    pop (0x2) back to v2
+    pop (0x0) back to v1
+    pop (0x1) back to v0
+move-result v5 (0x0)
+if-nez v5, offset 0xfffffff0 (0 != 0)
+const/16 v3, #int65
+add-int/lit8 v2, v2, #int1 (3 = 2 + 1)
+goto -22
+if-gt v2, v4, offset 0x17 (3 > 2 ?) 
+const/16 v4, #int87
+if-gt v3, v4, offset 0x7 (65 > 87 ?) 
+const/16 v4, #int88
+if-ne v3, v4, offset 0x3 (65 != 88 ?) 
+invoke-virtual {v8, v9} method_id 0x0027 Ljava/lang/String;,compareTo,(Ljava/lang/String;)I 
+    invoke Ljava/lang/String;/compareTo Ljava/lang/String;
+    call java.lang.String.compareTo
+    str_id 1 = 0xe, str_id 2 = 0xf, result = -1
+move-result v3 (0xffffffff)
+if-lez v3, offset 0x5 (-1 <= 0)
+move v0,v1
+goto -11
+return v0 (0)
+    restore invoke info & pc (0xd2)
+    pop (0x3) back to v9
+    pop (0xb09a9cb2) back to v8
+    pop (0x1450000) back to v7
+    pop (0xe) back to v6
+    pop (0x2537b10) back to v5
+    pop (0x2537ad0) back to v4
+    pop (0x2537a90) back to v3
+    pop (0x2) back to v2
+    pop (0xf) back to v1
+    pop (0x1) back to v0
+move-result v1 (0x0)
+if-nez v1, offset 0x14 (0 != 0)
+const/4 v1, #int1
+    find field from parent class, field_id = 28 --> parent field = 7
+sput-boolean v1, field 0x001c, Bool_Glob (bool = 1, static field = 0x2525310, other_data = 0x25253f0)
+if-ge v2 (2), v9 (3), 17
+const/4 v1, #int0
+mul-int/lit8 v10, v2, #int5 (2 * 5 = 10)
+sub-int/2addr v10, v9 (10 - 3 = 7)
+aput v10, v3, v1 (v3 (0x2537a90)->[v1 (0)] = v10 (7))
+invoke-virtual {v12, v2, v9, v3} method_id 0x0011 Ldhry;,Proc_7,(I)V 
+    push v0 (0x1) to stack
+    push v1 (0x0) to stack
+    push v2 (0x2) to stack
+    push v3 (0x2537a90) to stack
+    push v4 (0x2537ad0) to stack
+    push v5 (0x2537b10) to stack
+    mv v12 (0x251bb10) to v2
+    mv v2 (0x2) to v3
+    mv v9 (0x3) to v4
+    mv v3 (0x2537a90) to v5
+    save invoke info & pc (0xf4)
+add-int/lit8 v0, v3, #int2 (4 = 2 + 2)
+const/4 v1, #int0
+add-int/2addr v0, v4
+aput v0, v5, v1 (v5 (0x2537a90)->[v1 (0)] = v0 (7))
+return-void
+    restore invoke info & pc (0xf4)
+    pop (0x2537b10) back to v5
+    pop (0x2537ad0) back to v4
+    pop (0x2537a90) back to v3
+    pop (0x2) back to v2
+    pop (0x0) back to v1
+    pop (0x1) back to v0
+add-int/lit8 v1, v2, #int1 (3 = 2 + 1)
+move v2,v1
+goto -14
+if-ge v2 (3), v9 (3), 17
+const/4 v1, #int0
+aget v1, v3, v1 (v1 = v3 (0x2537a90)->[v1 (0)] (= 7))
+sget-object v10, field 0x001a, Array_Glob_1 (v10 = field_0x1a)
+    find field from parent class, field_id = 26 --> parent field = 5
+    field_0x1a = 0x251a250
+sget-object v11, field 0x001b, Array_Glob_2 (v11 = field_0x1b)
+    find field from parent class, field_id = 27 --> parent field = 6
+    field_0x1b = 0x251a4c0
+invoke-virtual {v12, v10, v11, v2, v1} method_id 0x0012 Ldhry;,Proc_8,([I)V 
+    push v0 (0x1) to stack
+    push v1 (0x7) to stack
+    push v2 (0x3) to stack
+    push v3 (0x2537a90) to stack
+    push v4 (0x2537ad0) to stack
+    push v5 (0x2537b10) to stack
+    push v6 (0xe) to stack
+    push v7 (0x1450000) to stack
+    push v8 (0xb09a9cb2) to stack
+    mv v12 (0x251bb10) to v4
+    mv v10 (0x251a250) to v5
+    mv v11 (0x251a4c0) to v6
+    mv v2 (0x3) to v7
+    mv v1 (0x7) to v8
+    save invoke info & pc (0x114)
+add-int/lit8 v1, v7, #int5 (8 = 3 + 5)
+aput v8, v5, v1 (v5 (0x251a250)->[v1 (8)] = v8 (7))
+add-int/lit8 v0, v1, #int1 (9 = 8 + 1)
+aget v2, v5, v1 (v2 = v5 (0x251a250)->[v1 (8)] (= 7))
+aput v2, v5, v0 (v5 (0x251a250)->[v0 (9)] = v2 (7))
+add-int/lit8 v0, v1, #int30 (38 = 8 + 30)
+aput v1, v5, v0 (v5 (0x251a250)->[v0 (38)] = v1 (8))
+move v0,v1
+add-int/lit8 v2, v1, #int1 (9 = 8 + 1)
+if-gt v0, v2, offset 0x9 (8 > 9 ?) 
+aget-object v2, v6, v1 (v2 = v6 (0x251a4c0)->[v1 (8)] (= 0x2527360))
+aput v1, v2, v0 (v2 (0x2527360)->[v0 (8)] = v1 (8))
+add-int/lit8 v0, v0, #int1 (9 = 8 + 1)
+goto -10
+add-int/lit8 v2, v1, #int1 (9 = 8 + 1)
+if-gt v0, v2, offset 0x9 (9 > 9 ?) 
+aget-object v2, v6, v1 (v2 = v6 (0x251a4c0)->[v1 (8)] (= 0x2527360))
+aput v1, v2, v0 (v2 (0x2527360)->[v0 (9)] = v1 (8))
+add-int/lit8 v0, v0, #int1 (10 = 9 + 1)
+goto -10
+add-int/lit8 v2, v1, #int1 (9 = 8 + 1)
+if-gt v0, v2, offset 0x9 (10 > 9 ?) 
+aget-object v0, v6, v1 (v0 = v6 (0x251a4c0)->[v1 (8)] (= 0x2527360))
+add-int/lit8 v2, v1, #int-1 (7 = 8 + -1)
+aget v3, v0, v2 (v3 = v0 (0x2527360)->[v2 (7)] (= 0))
+add-int/lit8 v3, v3, #int1 (1 = 0 + 1)
+aput v3, v0, v2 (v0 (0x2527360)->[v2 (7)] = v3 (1))
+add-int/lit8 v0, v1, #int20 (28 = 8 + 20)
+aget-object v0, v6, v0 (v0 = v6 (0x251a4c0)->[v0 (28)] (= 0x2529f20))
+aget v2, v5, v1 (v2 = v5 (0x251a250)->[v1 (8)] (= 7))
+aput v2, v0, v1 (v0 (0x2529f20)->[v1 (8)] = v2 (7))
+const/4 v0, #int5
+    find field from parent class, field_id = 32 --> parent field = 11
+sput v0, field_id 0x20, Int_Glob (obj 0x2525460, value 5 (0x5))
+return-void
+    restore invoke info & pc (0x114)
+    pop (0xb09a9cb2) back to v8
+    pop (0x1450000) back to v7
+    pop (0xe) back to v6
+    pop (0x2537b10) back to v5
+    pop (0x2537ad0) back to v4
+    pop (0x2537a90) back to v3
+    pop (0x3) back to v2
+    pop (0x7) back to v1
+    pop (0x1) back to v0
+sget-object v1, field 0x0023, Record_Glob (v1 = field_0x23)
+    find field from parent class, field_id = 35 --> parent field = 13
+    field_0x23 = 0x251ba70
+invoke-virtual {v12, v1} method_id 0x000b Ldhry;,Proc_1,(LRecord_Type;)V 
+    push v0 (0x1) to stack
+    push v1 (0x251ba70) to stack
+    push v2 (0x3) to stack
+    push v3 (0x2537a90) to stack
+    push v4 (0x2537ad0) to stack
+    push v5 (0x2537b10) to stack
+    push v6 (0xe) to stack
+    mv v12 (0x251bb10) to v5
+    mv v1 (0x251ba70) to v6
+    save invoke info & pc (0x11e)
+const/4 v4, #int0
+iget-object v0, v6, field 0x17, Record_Comp (v0 = v6 (0x251ba70)->field_0x17 (= 0x251bac0))
+    (offset 42, field_ptr 0x251ba9a)
+sget-object v1, field 0x0023, Record_Glob (v1 = field_0x23)
+    find field from parent class, field_id = 35 --> parent field = 13
+    field_0x23 = 0x251ba70
+iput-object v1, v6, field 0x17, Record_Comp (v6 (0x251ba70)->field_0x17 = 0x251ba70)
+    offset (42), field_ptr (0x251ba9a), *field_ptr (0x251ba70)
+const/4 v1, #int5
+iput v1, v6, field 0x16, Int_Comp (v6 (0x251ba70)->field_0x16 = v1 (0x5))
+    offset (38), field_ptr (0x251ba96), *field_ptr (0x5)
+iget v1, v6, field 0x16 (v1 = v6->field_0x16 (= 0x5))
+    (offset 38, field_ptr 0x251ba96)
+iput v1, v0, field 0x16, Int_Comp (v0 (0x251bac0)->field_0x16 = v1 (0x5))
+    offset (38), field_ptr (0x251bae6), *field_ptr (0x5)
+iget-object v1, v6, field 0x17, Record_Comp (v1 = v6 (0x251ba70)->field_0x17 (= 0x251ba70))
+    (offset 42, field_ptr 0x251ba9a)
+iput-object v1, v0, field 0x17, Record_Comp (v0 (0x251bac0)->field_0x17 = 0x251ba70)
+    offset (42), field_ptr (0x251baea), *field_ptr (0x251ba70)
+iget-object v1, v0, field 0x17, Record_Comp (v1 = v0 (0x251bac0)->field_0x17 (= 0x251ba70))
+    (offset 42, field_ptr 0x251baea)
+invoke-virtual {v5, v1} method_id 0x000d Ldhry;,Proc_3,(LRecord_Type;)V 
+    push v0 (0x251bac0) to stack
+    push v1 (0x251ba70) to stack
+    push v2 (0x3) to stack
+    push v3 (0x2537a90) to stack
+    push v4 (0x0) to stack
+    push v5 (0x251bb10) to stack
+    mv v5 (0x251bb10) to v4
+    mv v1 (0x251ba70) to v5
+    save invoke info & pc (0x28)
+const/4 v3, #int0
+sget-object v0, field 0x0023, Record_Glob (v0 = field_0x23)
+    find field from parent class, field_id = 35 --> parent field = 13
+    field_0x23 = 0x251ba70
+if-eqz v0, offset 0x1d (38910576 != 0)
+sget-object v0, field 0x0023, Record_Glob (v0 = field_0x23)
+    find field from parent class, field_id = 35 --> parent field = 13
+    field_0x23 = 0x251ba70
+iget-object v0, v0, field 0x17, Record_Comp (v0 = v0 (0x251ba70)->field_0x17 (= 0x251ba70))
+    (offset 42, field_ptr 0x251ba9a)
+const/4 v0, #int1
+new-array v0, v0, type_id 0x001e
+    num-elem 1, each elem size 4, total 44, ptr 0x2537b70, [I
+sget-object v1, field 0x0023, Record_Glob (v1 = field_0x23)
+    find field from parent class, field_id = 35 --> parent field = 13
+    field_0x23 = 0x251ba70
+iget v1, v1, field 0x16 (v1 = v1->field_0x16 (= 0x5))
+    (offset 38, field_ptr 0x251ba96)
+aput v1, v0, v3 (v0 (0x2537b70)->[v3 (0)] = v1 (5))
+const/16 v1, #int10
+    find field from parent class, field_id = 32 --> parent field = 11
+sget v2, field 0x0020, (int = 5, static field = 0x2525350, other_data = 0x2525470)
+invoke-virtual {v4, v1, v2, v0} method_id 0x0011 Ldhry;,Proc_7,(I)V 
+    push v0 (0x2537b70) to stack
+    push v1 (0xa) to stack
+    push v2 (0x5) to stack
+    push v3 (0x0) to stack
+    push v4 (0x251bb10) to stack
+    push v5 (0x251ba70) to stack
+    mv v4 (0x251bb10) to v2
+    mv v1 (0xa) to v3
+    mv v2 (0x5) to v4
+    mv v0 (0x2537b70) to v5
+    save invoke info & pc (0x2c)
+add-int/lit8 v0, v3, #int2 (12 = 10 + 2)
+const/4 v1, #int0
+add-int/2addr v0, v4
+aput v0, v5, v1 (v5 (0x2537b70)->[v1 (0)] = v0 (17))
+return-void
+    restore invoke info & pc (0x2c)
+    pop (0x251ba70) back to v5
+    pop (0x251bb10) back to v4
+    pop (0x0) back to v3
+    pop (0x5) back to v2
+    pop (0xa) back to v1
+    pop (0x2537b70) back to v0
+sget-object v1, field 0x0023, Record_Glob (v1 = field_0x23)
+    find field from parent class, field_id = 35 --> parent field = 13
+    field_0x23 = 0x251ba70
+aget v0, v0, v3 (v0 = v0 (0x2537b70)->[v3 (0)] (= 17))
+iput v0, v1, field 0x16, Int_Comp (v1 (0x251ba70)->field_0x16 = v0 (0x11))
+    offset (38), field_ptr (0x251ba96), *field_ptr (0x11)
+return-void
+    restore invoke info & pc (0x28)
+    pop (0x251bb10) back to v5
+    pop (0x0) back to v4
+    pop (0x2537a90) back to v3
+    pop (0x3) back to v2
+    pop (0x251ba70) back to v1
+    pop (0x251bac0) back to v0
+const/4 v1, #int1
+new-array v1, v1, type_id 0x001e
+    num-elem 1, each elem size 4, total 44, ptr 0x2537bb0, [I
+iget v2, v0, field 0x13 (v2 = v0->field_0x13 (= 0x0))
+    (offset 26, field_ptr 0x251bada)
+if-nez v2, offset 0x28 (0 != 0)
+const/4 v2, #int6
+iput v2, v0, field 0x16, Int_Comp (v0 (0x251bac0)->field_0x16 = v2 (0x6))
+    offset (38), field_ptr (0x251bae6), *field_ptr (0x6)
+iget v2, v0, field 0x14 (v2 = v0->field_0x14 (= 0x0))
+    (offset 30, field_ptr 0x251bade)
+aput v2, v1, v4 (v1 (0x2537bb0)->[v4 (0)] = v2 (0))
+iget v2, v6, field 0x14 (v2 = v6->field_0x14 (= 0x2))
+    (offset 30, field_ptr 0x251ba8e)
+invoke-virtual {v5, v2, v1} method_id 0x0010 Ldhry;,Proc_6,(I)V 
+    push v0 (0x251bac0) to stack
+    push v1 (0x2537bb0) to stack
+    push v2 (0x2) to stack
+    push v3 (0x2537a90) to stack
+    push v4 (0x0) to stack
+    push v5 (0x251bb10) to stack
+    push v6 (0x251ba70) to stack
+    mv v5 (0x251bb10) to v4
+    mv v2 (0x2) to v5
+    mv v1 (0x2537bb0) to v6
+    save invoke info & pc (0x4e)
+const/4 v3, #int3
+const/4 v2, #int0
+aput v5, v6, v2 (v6 (0x2537bb0)->[v2 (0)] = v5 (2))
+invoke-virtual {v4, v5} method_id 0x000a Ldhry;,Func_3,(I)Z 
+    push v0 (0x251bac0) to stack
+    push v1 (0x2537bb0) to stack
+    push v2 (0x0) to stack
+    mv v4 (0x251bb10) to v1
+    mv v5 (0x2) to v2
+    save invoke info & pc (0x8)
+const/4 v0, #int2
+if-ne v2, v0, offset 0x4 (2 != 2 ?) 
+const/4 v0, #int1
+return v0 (1)
+    restore invoke info & pc (0x8)
+    pop (0x0) back to v2
+    pop (0x2537bb0) back to v1
+    pop (0x251bac0) back to v0
+move-result v0 (0x1)
+if-nez v0, offset 0x4 (1 != 0)
+packed-switch v5, table 0x1c (num_case 5, my case = 2, offset = 19 words)
+const/4 v0, #int1
+aput v0, v6, v2 (v6 (0x2537bb0)->[v2 (0)] = v0 (1))
+goto -19
+return-void
+    restore invoke info & pc (0x4e)
+    pop (0x251ba70) back to v6
+    pop (0x251bb10) back to v5
+    pop (0x0) back to v4
+    pop (0x2537a90) back to v3
+    pop (0x2) back to v2
+    pop (0x2537bb0) back to v1
+    pop (0x251bac0) back to v0
+aget v2, v1, v4 (v2 = v1 (0x2537bb0)->[v4 (0)] (= 1))
+iput v2, v0, field 0x14, Enum_Comp (v0 (0x251bac0)->field_0x14 = v2 (0x1))
+    offset (30), field_ptr (0x251bade), *field_ptr (0x1)
+sget-object v2, field 0x0023, Record_Glob (v2 = field_0x23)
+    find field from parent class, field_id = 35 --> parent field = 13
+    field_0x23 = 0x251ba70
+iget-object v2, v2, field 0x17, Record_Comp (v2 = v2 (0x251ba70)->field_0x17 (= 0x251ba70))
+    (offset 42, field_ptr 0x251ba9a)
+iput-object v2, v0, field 0x17, Record_Comp (v0 (0x251bac0)->field_0x17 = 0x251ba70)
+    offset (42), field_ptr (0x251baea), *field_ptr (0x251ba70)
+iget v2, v0, field 0x16 (v2 = v0->field_0x16 (= 0x6))
+    (offset 38, field_ptr 0x251bae6)
+aput v2, v1, v4 (v1 (0x2537bb0)->[v4 (0)] = v2 (6))
+iget v2, v0, field 0x16 (v2 = v0->field_0x16 (= 0x6))
+    (offset 38, field_ptr 0x251bae6)
+const/16 v3, #int10
+invoke-virtual {v5, v2, v3, v1} method_id 0x0011 Ldhry;,Proc_7,(I)V 
+    push v0 (0x251bac0) to stack
+    push v1 (0x2537bb0) to stack
+    push v2 (0x6) to stack
+    push v3 (0xa) to stack
+    push v4 (0x0) to stack
+    push v5 (0x251bb10) to stack
+    mv v5 (0x251bb10) to v2
+    mv v2 (0x6) to v3
+    mv v3 (0xa) to v4
+    mv v1 (0x2537bb0) to v5
+    save invoke info & pc (0x78)
+add-int/lit8 v0, v3, #int2 (8 = 6 + 2)
+const/4 v1, #int0
+add-int/2addr v0, v4
+aput v0, v5, v1 (v5 (0x2537bb0)->[v1 (0)] = v0 (18))
+return-void
+    restore invoke info & pc (0x78)
+    pop (0x251bb10) back to v5
+    pop (0x0) back to v4
+    pop (0xa) back to v3
+    pop (0x6) back to v2
+    pop (0x2537bb0) back to v1
+    pop (0x251bac0) back to v0
+aget v1, v1, v4 (v1 = v1 (0x2537bb0)->[v4 (0)] (= 18))
+iput v1, v0, field 0x16, Int_Comp (v0 (0x251bac0)->field_0x16 = v1 (0x12))
+    offset (38), field_ptr (0x251bae6), *field_ptr (0x12)
+return-void
+    restore invoke info & pc (0x11e)
+    pop (0xe) back to v6
+    pop (0x2537b10) back to v5
+    pop (0x2537ad0) back to v4
+    pop (0x2537a90) back to v3
+    pop (0x3) back to v2
+    pop (0x251ba70) back to v1
+    pop (0x1) back to v0
+const/16 v1, #int65
+    find field from parent class, field_id = 30 --> parent field = 9
+sget-char v10, field 0x001e, Char_Glob_2 (char = B, static field = 0x2525330, other_data = 0x2525430)
+if-gt v1, v10, offset 0x15 (65 > 66 ?) 
+const/4 v10, #int0
+aget v10, v5, v10 (v10 = v5 (0x2537b10)->[v10 (0)] (= 1))
+const/16 v11, #int67
+invoke-virtual {v12, v1, v11} method_id 0x0008 Ldhry;,Func_1,(C)I 
+    push v0 (0x1) to stack
+    push v1 (0x41) to stack
+    push v2 (0x3) to stack
+    push v3 (0x2537a90) to stack
+    mv v12 (0x251bb10) to v1
+    mv v1 (0x41) to v2
+    mv v11 (0x43) to v3
+    save invoke info & pc (0x13a)
+if-eq v2, v3, offset 0x4 (65 == 67 ?) 
+const/4 v0, #int0
+return v0 (0)
+    restore invoke info & pc (0x13a)
+    pop (0x2537a90) back to v3
+    pop (0x3) back to v2
+    pop (0x41) back to v1
+    pop (0x1) back to v0
+move-result v11 (0x0)
+if-ne v10, v11, offset 0x6 (1 != 0 ?) 
+add-int/lit8 v1, v1, #int1 (66 = 65 + 1)
+int-to-char v1, v1 ( (char)66 = B (0x42) )
+goto -22
+    find field from parent class, field_id = 30 --> parent field = 9
+sget-char v10, field 0x001e, Char_Glob_2 (char = B, static field = 0x2525330, other_data = 0x2525430)
+if-gt v1, v10, offset 0x15 (66 > 66 ?) 
+const/4 v10, #int0
+aget v10, v5, v10 (v10 = v5 (0x2537b10)->[v10 (0)] (= 1))
+const/16 v11, #int67
+invoke-virtual {v12, v1, v11} method_id 0x0008 Ldhry;,Func_1,(C)I 
+    push v0 (0x1) to stack
+    push v1 (0x42) to stack
+    push v2 (0x3) to stack
+    push v3 (0x2537a90) to stack
+    mv v12 (0x251bb10) to v1
+    mv v1 (0x42) to v2
+    mv v11 (0x43) to v3
+    save invoke info & pc (0x13a)
+if-eq v2, v3, offset 0x4 (66 == 67 ?) 
+const/4 v0, #int0
+return v0 (0)
+    restore invoke info & pc (0x13a)
+    pop (0x2537a90) back to v3
+    pop (0x3) back to v2
+    pop (0x42) back to v1
+    pop (0x1) back to v0
+move-result v11 (0x0)
+if-ne v10, v11, offset 0x6 (1 != 0 ?) 
+add-int/lit8 v1, v1, #int1 (67 = 66 + 1)
+int-to-char v1, v1 ( (char)67 = C (0x43) )
+goto -22
+    find field from parent class, field_id = 30 --> parent field = 9
+sget-char v10, field 0x001e, Char_Glob_2 (char = B, static field = 0x2525330, other_data = 0x2525430)
+if-gt v1, v10, offset 0x15 (67 > 66 ?) 
+mul-int v1, v9, v2 (9 = 3 * 3)
+div-int v9, v1, v2 (3 = 9 / 3)
+sub-int/2addr v1, v9 (9 - 3 = 6)
+mul-int/lit8 v1, v1, #int7 (6 * 7 = 42)
+sub-int/2addr v1, v2 (42 - 3 = 39)
+const/4 v1, #int0
+aput v2, v4, v1 (v4 (0x2537ad0)->[v1 (0)] = v2 (3))
+invoke-virtual {v12, v4} method_id 0x000c Ldhry;,Proc_2,([I)V 
+    push v0 (0x1) to stack
+    push v1 (0x0) to stack
+    push v2 (0x3) to stack
+    push v3 (0x2537a90) to stack
+    push v4 (0x2537ad0) to stack
+    push v5 (0x2537b10) to stack
+    mv v12 (0x251bb10) to v4
+    mv v4 (0x2537ad0) to v5
+    save invoke info & pc (0x16c)
+const/4 v3, #int0
+aget v0, v5, v3 (v0 = v5 (0x2537ad0)->[v3 (0)] (= 3))
+add-int/lit8 v0, v0, #int10 (13 = 3 + 10)
+    find field from parent class, field_id = 29 --> parent field = 8
+sget-char v1, field 0x001d, Char_Glob_1 (char = A, static field = 0x2525320, other_data = 0x2525410)
+const/16 v2, #int65
+if-ne v1, v2, offset 0xa (65 != 65 ?) 
+add-int/lit8 v0, v0, #int-1 (12 = 13 + -1)
+    find field from parent class, field_id = 32 --> parent field = 11
+sget v1, field 0x0020, (int = 5, static field = 0x2525350, other_data = 0x2525470)
+sub-int v1, v1, v0
+aput v1, v5, v3 (v5 (0x2537ad0)->[v3 (0)] = v1 (7))
+return-void
+    restore invoke info & pc (0x16c)
+    pop (0x2537b10) back to v5
+    pop (0x2537ad0) back to v4
+    pop (0x2537a90) back to v3
+    pop (0x3) back to v2
+    pop (0x0) back to v1
+    pop (0x1) back to v0
+const/4 v1, #int0
+aget v1, v4, v1 (v1 = v4 (0x2537ad0)->[v1 (0)] (= 7))
+add-int/lit8 v0, v0, #int1 (2 = 1 + 1)
+goto -106
+int-to-long v1, v0, val 2
+iget-wide v9, v12, field 0x22, Number_Of_Runs (v9 v10 = v12 (0x251bb10)->field_0x22)
+    offset (24), field_ptr (0x251bb28), *field_ptr (0x3), val=3 L
+cmp-long v1, v1 (2), v9 (3), cond = -1
+if-gtz v1 (cond -1), offset 102
+invoke-virtual, {v12} method_id 0x000f Ldhry;,Proc_5,()V 
+    push v0 (0x2) to stack
+    push v1 (0xffffffff) to stack
+    mv v12 (0x251bb10) to v1
+    save invoke info & pc (0xb6)
+const/16 v0, #int65
+    find field from parent class, field_id = 29 --> parent field = 8
+sput-char v0, field 0x001d, Char_Glob_1 (char = A, static field = 0x2525320, other_data = 0x2525410)
+const/4 v0, #int0
+    find field from parent class, field_id = 28 --> parent field = 7
+sput-boolean v0, field 0x001c, Bool_Glob (bool = 0, static field = 0x2525310, other_data = 0x25253f0)
+return-void
+    restore invoke info & pc (0xb6)
+    pop (0xffffffff) back to v1
+    pop (0x2) back to v0
+invoke-virtual, {v12} method_id 0x000e Ldhry;,Proc_4,()V 
+    push v0 (0x2) to stack
+    push v1 (0xffffffff) to stack
+    push v2 (0x20000) to stack
+    mv v12 (0x251bb10) to v2
+    save invoke info & pc (0xbc)
+    find field from parent class, field_id = 29 --> parent field = 8
+sget-char v0, field 0x001d, Char_Glob_1 (char = A, static field = 0x2525320, other_data = 0x2525410)
+const/16 v1, #int65
+if-ne v0, v1, offset 0xe (65 != 65 ?) 
+const/4 v0, #int1
+if-nez v0, offset 0x6 (1 != 0)
+const/16 v0, #int66
+    find field from parent class, field_id = 30 --> parent field = 9
+sput-char v0, field 0x001e, Char_Glob_2 (char = B, static field = 0x2525330, other_data = 0x2525430)
+return-void
+    restore invoke info & pc (0xbc)
+    pop (0x20000) back to v2
+    pop (0xffffffff) back to v1
+    pop (0x2) back to v0
+const/4 v2, #int2
+const/4 v9, #int3
+const-string v1, string_id 0x000f
+const/4 v10, #int0
+const/4 v11, #int1
+aput v11, v5, v10 (v5 (0x2537b10)->[v10 (0)] = v11 (1))
+invoke-virtual {v12, v6, v1} method_id 0x0009 Ldhry;,Func_2,(Ljava/lang/String;)Z 
+    push v0 (0x2) to stack
+    push v1 (0xf) to stack
+    push v2 (0x2) to stack
+    push v3 (0x2537a90) to stack
+    push v4 (0x2537ad0) to stack
+    push v5 (0x2537b10) to stack
+    push v6 (0xe) to stack
+    push v7 (0x1450000) to stack
+    push v8 (0xb09a9cb2) to stack
+    push v9 (0x3) to stack
+    mv v12 (0x251bb10) to v7
+    mv v6 (0xe) to v8
+    mv v1 (0xf) to v9
+    save invoke info & pc (0xd2)
+const/4 v4, #int2
+const/4 v0, #int1
+const/4 v1, #int0
+move v3,v1
+move v2,v4
+if-gt v2, v4, offset 0x17 (2 > 2 ?) 
+invoke-virtual {v8, v2} method_id 0x0026 Ljava/lang/String;,charAt,(I)C 
+    invoke Ljava/lang/String;/charAt I
+    call java.lang.String.charAt
+    string_id 14, index 2 = R
+move-result v5 (0x52)
+add-int/lit8 v6, v2, #int1 (3 = 2 + 1)
+invoke-virtual {v9, v6} method_id 0x0026 Ljava/lang/String;,charAt,(I)C 
+    invoke Ljava/lang/String;/charAt I
+    call java.lang.String.charAt
+    string_id 15, index 3 = Y
+move-result v6 (0x59)
+invoke-virtual {v7, v5, v6} method_id 0x0008 Ldhry;,Func_1,(C)I 
+    push v0 (0x1) to stack
+    push v1 (0x0) to stack
+    push v2 (0x2) to stack
+    push v3 (0x0) to stack
+    mv v7 (0x251bb10) to v1
+    mv v5 (0x52) to v2
+    mv v6 (0x59) to v3
+    save invoke info & pc (0x22)
+if-eq v2, v3, offset 0x4 (82 == 89 ?) 
+const/4 v0, #int0
+return v0 (0)
+    restore invoke info & pc (0x22)
+    pop (0x0) back to v3
+    pop (0x2) back to v2
+    pop (0x0) back to v1
+    pop (0x1) back to v0
+move-result v5 (0x0)
+if-nez v5, offset 0xfffffff0 (0 != 0)
+const/16 v3, #int65
+add-int/lit8 v2, v2, #int1 (3 = 2 + 1)
+goto -22
+if-gt v2, v4, offset 0x17 (3 > 2 ?) 
+const/16 v4, #int87
+if-gt v3, v4, offset 0x7 (65 > 87 ?) 
+const/16 v4, #int88
+if-ne v3, v4, offset 0x3 (65 != 88 ?) 
+invoke-virtual {v8, v9} method_id 0x0027 Ljava/lang/String;,compareTo,(Ljava/lang/String;)I 
+    invoke Ljava/lang/String;/compareTo Ljava/lang/String;
+    call java.lang.String.compareTo
+    str_id 1 = 0xe, str_id 2 = 0xf, result = -1
+move-result v3 (0xffffffff)
+if-lez v3, offset 0x5 (-1 <= 0)
+move v0,v1
+goto -11
+return v0 (0)
+    restore invoke info & pc (0xd2)
+    pop (0x3) back to v9
+    pop (0xb09a9cb2) back to v8
+    pop (0x1450000) back to v7
+    pop (0xe) back to v6
+    pop (0x2537b10) back to v5
+    pop (0x2537ad0) back to v4
+    pop (0x2537a90) back to v3
+    pop (0x2) back to v2
+    pop (0xf) back to v1
+    pop (0x2) back to v0
+move-result v1 (0x0)
+if-nez v1, offset 0x14 (0 != 0)
+const/4 v1, #int1
+    find field from parent class, field_id = 28 --> parent field = 7
+sput-boolean v1, field 0x001c, Bool_Glob (bool = 1, static field = 0x2525310, other_data = 0x25253f0)
+if-ge v2 (2), v9 (3), 17
+const/4 v1, #int0
+mul-int/lit8 v10, v2, #int5 (2 * 5 = 10)
+sub-int/2addr v10, v9 (10 - 3 = 7)
+aput v10, v3, v1 (v3 (0x2537a90)->[v1 (0)] = v10 (7))
+invoke-virtual {v12, v2, v9, v3} method_id 0x0011 Ldhry;,Proc_7,(I)V 
+    push v0 (0x2) to stack
+    push v1 (0x0) to stack
+    push v2 (0x2) to stack
+    push v3 (0x2537a90) to stack
+    push v4 (0x2537ad0) to stack
+    push v5 (0x2537b10) to stack
+    mv v12 (0x251bb10) to v2
+    mv v2 (0x2) to v3
+    mv v9 (0x3) to v4
+    mv v3 (0x2537a90) to v5
+    save invoke info & pc (0xf4)
+add-int/lit8 v0, v3, #int2 (4 = 2 + 2)
+const/4 v1, #int0
+add-int/2addr v0, v4
+aput v0, v5, v1 (v5 (0x2537a90)->[v1 (0)] = v0 (7))
+return-void
+    restore invoke info & pc (0xf4)
+    pop (0x2537b10) back to v5
+    pop (0x2537ad0) back to v4
+    pop (0x2537a90) back to v3
+    pop (0x2) back to v2
+    pop (0x0) back to v1
+    pop (0x2) back to v0
+add-int/lit8 v1, v2, #int1 (3 = 2 + 1)
+move v2,v1
+goto -14
+if-ge v2 (3), v9 (3), 17
+const/4 v1, #int0
+aget v1, v3, v1 (v1 = v3 (0x2537a90)->[v1 (0)] (= 7))
+sget-object v10, field 0x001a, Array_Glob_1 (v10 = field_0x1a)
+    find field from parent class, field_id = 26 --> parent field = 5
+    field_0x1a = 0x251a250
+sget-object v11, field 0x001b, Array_Glob_2 (v11 = field_0x1b)
+    find field from parent class, field_id = 27 --> parent field = 6
+    field_0x1b = 0x251a4c0
+invoke-virtual {v12, v10, v11, v2, v1} method_id 0x0012 Ldhry;,Proc_8,([I)V 
+    push v0 (0x2) to stack
+    push v1 (0x7) to stack
+    push v2 (0x3) to stack
+    push v3 (0x2537a90) to stack
+    push v4 (0x2537ad0) to stack
+    push v5 (0x2537b10) to stack
+    push v6 (0xe) to stack
+    push v7 (0x1450000) to stack
+    push v8 (0xb09a9cb2) to stack
+    mv v12 (0x251bb10) to v4
+    mv v10 (0x251a250) to v5
+    mv v11 (0x251a4c0) to v6
+    mv v2 (0x3) to v7
+    mv v1 (0x7) to v8
+    save invoke info & pc (0x114)
+add-int/lit8 v1, v7, #int5 (8 = 3 + 5)
+aput v8, v5, v1 (v5 (0x251a250)->[v1 (8)] = v8 (7))
+add-int/lit8 v0, v1, #int1 (9 = 8 + 1)
+aget v2, v5, v1 (v2 = v5 (0x251a250)->[v1 (8)] (= 7))
+aput v2, v5, v0 (v5 (0x251a250)->[v0 (9)] = v2 (7))
+add-int/lit8 v0, v1, #int30 (38 = 8 + 30)
+aput v1, v5, v0 (v5 (0x251a250)->[v0 (38)] = v1 (8))
+move v0,v1
+add-int/lit8 v2, v1, #int1 (9 = 8 + 1)
+if-gt v0, v2, offset 0x9 (8 > 9 ?) 
+aget-object v2, v6, v1 (v2 = v6 (0x251a4c0)->[v1 (8)] (= 0x2527360))
+aput v1, v2, v0 (v2 (0x2527360)->[v0 (8)] = v1 (8))
+add-int/lit8 v0, v0, #int1 (9 = 8 + 1)
+goto -10
+add-int/lit8 v2, v1, #int1 (9 = 8 + 1)
+if-gt v0, v2, offset 0x9 (9 > 9 ?) 
+aget-object v2, v6, v1 (v2 = v6 (0x251a4c0)->[v1 (8)] (= 0x2527360))
+aput v1, v2, v0 (v2 (0x2527360)->[v0 (9)] = v1 (8))
+add-int/lit8 v0, v0, #int1 (10 = 9 + 1)
+goto -10
+add-int/lit8 v2, v1, #int1 (9 = 8 + 1)
+if-gt v0, v2, offset 0x9 (10 > 9 ?) 
+aget-object v0, v6, v1 (v0 = v6 (0x251a4c0)->[v1 (8)] (= 0x2527360))
+add-int/lit8 v2, v1, #int-1 (7 = 8 + -1)
+aget v3, v0, v2 (v3 = v0 (0x2527360)->[v2 (7)] (= 1))
+add-int/lit8 v3, v3, #int1 (2 = 1 + 1)
+aput v3, v0, v2 (v0 (0x2527360)->[v2 (7)] = v3 (2))
+add-int/lit8 v0, v1, #int20 (28 = 8 + 20)
+aget-object v0, v6, v0 (v0 = v6 (0x251a4c0)->[v0 (28)] (= 0x2529f20))
+aget v2, v5, v1 (v2 = v5 (0x251a250)->[v1 (8)] (= 7))
+aput v2, v0, v1 (v0 (0x2529f20)->[v1 (8)] = v2 (7))
+const/4 v0, #int5
+    find field from parent class, field_id = 32 --> parent field = 11
+sput v0, field_id 0x20, Int_Glob (obj 0x2525460, value 5 (0x5))
+return-void
+    restore invoke info & pc (0x114)
+    pop (0xb09a9cb2) back to v8
+    pop (0x1450000) back to v7
+    pop (0xe) back to v6
+    pop (0x2537b10) back to v5
+    pop (0x2537ad0) back to v4
+    pop (0x2537a90) back to v3
+    pop (0x3) back to v2
+    pop (0x7) back to v1
+    pop (0x2) back to v0
+sget-object v1, field 0x0023, Record_Glob (v1 = field_0x23)
+    find field from parent class, field_id = 35 --> parent field = 13
+    field_0x23 = 0x251ba70
+invoke-virtual {v12, v1} method_id 0x000b Ldhry;,Proc_1,(LRecord_Type;)V 
+    push v0 (0x2) to stack
+    push v1 (0x251ba70) to stack
+    push v2 (0x3) to stack
+    push v3 (0x2537a90) to stack
+    push v4 (0x2537ad0) to stack
+    push v5 (0x2537b10) to stack
+    push v6 (0xe) to stack
+    mv v12 (0x251bb10) to v5
+    mv v1 (0x251ba70) to v6
+    save invoke info & pc (0x11e)
+const/4 v4, #int0
+iget-object v0, v6, field 0x17, Record_Comp (v0 = v6 (0x251ba70)->field_0x17 (= 0x251ba70))
+    (offset 42, field_ptr 0x251ba9a)
+sget-object v1, field 0x0023, Record_Glob (v1 = field_0x23)
+    find field from parent class, field_id = 35 --> parent field = 13
+    field_0x23 = 0x251ba70
+iput-object v1, v6, field 0x17, Record_Comp (v6 (0x251ba70)->field_0x17 = 0x251ba70)
+    offset (42), field_ptr (0x251ba9a), *field_ptr (0x251ba70)
+const/4 v1, #int5
+iput v1, v6, field 0x16, Int_Comp (v6 (0x251ba70)->field_0x16 = v1 (0x5))
+    offset (38), field_ptr (0x251ba96), *field_ptr (0x5)
+iget v1, v6, field 0x16 (v1 = v6->field_0x16 (= 0x5))
+    (offset 38, field_ptr 0x251ba96)
+iput v1, v0, field 0x16, Int_Comp (v0 (0x251ba70)->field_0x16 = v1 (0x5))
+    offset (38), field_ptr (0x251ba96), *field_ptr (0x5)
+iget-object v1, v6, field 0x17, Record_Comp (v1 = v6 (0x251ba70)->field_0x17 (= 0x251ba70))
+    (offset 42, field_ptr 0x251ba9a)
+iput-object v1, v0, field 0x17, Record_Comp (v0 (0x251ba70)->field_0x17 = 0x251ba70)
+    offset (42), field_ptr (0x251ba9a), *field_ptr (0x251ba70)
+iget-object v1, v0, field 0x17, Record_Comp (v1 = v0 (0x251ba70)->field_0x17 (= 0x251ba70))
+    (offset 42, field_ptr 0x251ba9a)
+invoke-virtual {v5, v1} method_id 0x000d Ldhry;,Proc_3,(LRecord_Type;)V 
+    push v0 (0x251ba70) to stack
+    push v1 (0x251ba70) to stack
+    push v2 (0x3) to stack
+    push v3 (0x2537a90) to stack
+    push v4 (0x0) to stack
+    push v5 (0x251bb10) to stack
+    mv v5 (0x251bb10) to v4
+    mv v1 (0x251ba70) to v5
+    save invoke info & pc (0x28)
+const/4 v3, #int0
+sget-object v0, field 0x0023, Record_Glob (v0 = field_0x23)
+    find field from parent class, field_id = 35 --> parent field = 13
+    field_0x23 = 0x251ba70
+if-eqz v0, offset 0x1d (38910576 != 0)
+sget-object v0, field 0x0023, Record_Glob (v0 = field_0x23)
+    find field from parent class, field_id = 35 --> parent field = 13
+    field_0x23 = 0x251ba70
+iget-object v0, v0, field 0x17, Record_Comp (v0 = v0 (0x251ba70)->field_0x17 (= 0x251ba70))
+    (offset 42, field_ptr 0x251ba9a)
+const/4 v0, #int1
+new-array v0, v0, type_id 0x001e
+    num-elem 1, each elem size 4, total 44, ptr 0x2537bf0, [I
+sget-object v1, field 0x0023, Record_Glob (v1 = field_0x23)
+    find field from parent class, field_id = 35 --> parent field = 13
+    field_0x23 = 0x251ba70
+iget v1, v1, field 0x16 (v1 = v1->field_0x16 (= 0x5))
+    (offset 38, field_ptr 0x251ba96)
+aput v1, v0, v3 (v0 (0x2537bf0)->[v3 (0)] = v1 (5))
+const/16 v1, #int10
+    find field from parent class, field_id = 32 --> parent field = 11
+sget v2, field 0x0020, (int = 5, static field = 0x2525350, other_data = 0x2525470)
+invoke-virtual {v4, v1, v2, v0} method_id 0x0011 Ldhry;,Proc_7,(I)V 
+    push v0 (0x2537bf0) to stack
+    push v1 (0xa) to stack
+    push v2 (0x5) to stack
+    push v3 (0x0) to stack
+    push v4 (0x251bb10) to stack
+    push v5 (0x251ba70) to stack
+    mv v4 (0x251bb10) to v2
+    mv v1 (0xa) to v3
+    mv v2 (0x5) to v4
+    mv v0 (0x2537bf0) to v5
+    save invoke info & pc (0x2c)
+add-int/lit8 v0, v3, #int2 (12 = 10 + 2)
+const/4 v1, #int0
+add-int/2addr v0, v4
+aput v0, v5, v1 (v5 (0x2537bf0)->[v1 (0)] = v0 (17))
+return-void
+    restore invoke info & pc (0x2c)
+    pop (0x251ba70) back to v5
+    pop (0x251bb10) back to v4
+    pop (0x0) back to v3
+    pop (0x5) back to v2
+    pop (0xa) back to v1
+    pop (0x2537bf0) back to v0
+sget-object v1, field 0x0023, Record_Glob (v1 = field_0x23)
+    find field from parent class, field_id = 35 --> parent field = 13
+    field_0x23 = 0x251ba70
+aget v0, v0, v3 (v0 = v0 (0x2537bf0)->[v3 (0)] (= 17))
+iput v0, v1, field 0x16, Int_Comp (v1 (0x251ba70)->field_0x16 = v0 (0x11))
+    offset (38), field_ptr (0x251ba96), *field_ptr (0x11)
+return-void
+    restore invoke info & pc (0x28)
+    pop (0x251bb10) back to v5
+    pop (0x0) back to v4
+    pop (0x2537a90) back to v3
+    pop (0x3) back to v2
+    pop (0x251ba70) back to v1
+    pop (0x251ba70) back to v0
+const/4 v1, #int1
+new-array v1, v1, type_id 0x001e
+    num-elem 1, each elem size 4, total 44, ptr 0x2537c30, [I
+iget v2, v0, field 0x13 (v2 = v0->field_0x13 (= 0x0))
+    (offset 26, field_ptr 0x251ba8a)
+if-nez v2, offset 0x28 (0 != 0)
+const/4 v2, #int6
+iput v2, v0, field 0x16, Int_Comp (v0 (0x251ba70)->field_0x16 = v2 (0x6))
+    offset (38), field_ptr (0x251ba96), *field_ptr (0x6)
+iget v2, v0, field 0x14 (v2 = v0->field_0x14 (= 0x2))
+    (offset 30, field_ptr 0x251ba8e)
+aput v2, v1, v4 (v1 (0x2537c30)->[v4 (0)] = v2 (2))
+iget v2, v6, field 0x14 (v2 = v6->field_0x14 (= 0x2))
+    (offset 30, field_ptr 0x251ba8e)
+invoke-virtual {v5, v2, v1} method_id 0x0010 Ldhry;,Proc_6,(I)V 
+    push v0 (0x251ba70) to stack
+    push v1 (0x2537c30) to stack
+    push v2 (0x2) to stack
+    push v3 (0x2537a90) to stack
+    push v4 (0x0) to stack
+    push v5 (0x251bb10) to stack
+    push v6 (0x251ba70) to stack
+    mv v5 (0x251bb10) to v4
+    mv v2 (0x2) to v5
+    mv v1 (0x2537c30) to v6
+    save invoke info & pc (0x4e)
+const/4 v3, #int3
+const/4 v2, #int0
+aput v5, v6, v2 (v6 (0x2537c30)->[v2 (0)] = v5 (2))
+invoke-virtual {v4, v5} method_id 0x000a Ldhry;,Func_3,(I)Z 
+    push v0 (0x251ba70) to stack
+    push v1 (0x2537c30) to stack
+    push v2 (0x0) to stack
+    mv v4 (0x251bb10) to v1
+    mv v5 (0x2) to v2
+    save invoke info & pc (0x8)
+const/4 v0, #int2
+if-ne v2, v0, offset 0x4 (2 != 2 ?) 
+const/4 v0, #int1
+return v0 (1)
+    restore invoke info & pc (0x8)
+    pop (0x0) back to v2
+    pop (0x2537c30) back to v1
+    pop (0x251ba70) back to v0
+move-result v0 (0x1)
+if-nez v0, offset 0x4 (1 != 0)
+packed-switch v5, table 0x1c (num_case 5, my case = 2, offset = 19 words)
+const/4 v0, #int1
+aput v0, v6, v2 (v6 (0x2537c30)->[v2 (0)] = v0 (1))
+goto -19
+return-void
+    restore invoke info & pc (0x4e)
+    pop (0x251ba70) back to v6
+    pop (0x251bb10) back to v5
+    pop (0x0) back to v4
+    pop (0x2537a90) back to v3
+    pop (0x2) back to v2
+    pop (0x2537c30) back to v1
+    pop (0x251ba70) back to v0
+aget v2, v1, v4 (v2 = v1 (0x2537c30)->[v4 (0)] (= 1))
+iput v2, v0, field 0x14, Enum_Comp (v0 (0x251ba70)->field_0x14 = v2 (0x1))
+    offset (30), field_ptr (0x251ba8e), *field_ptr (0x1)
+sget-object v2, field 0x0023, Record_Glob (v2 = field_0x23)
+    find field from parent class, field_id = 35 --> parent field = 13
+    field_0x23 = 0x251ba70
+iget-object v2, v2, field 0x17, Record_Comp (v2 = v2 (0x251ba70)->field_0x17 (= 0x251ba70))
+    (offset 42, field_ptr 0x251ba9a)
+iput-object v2, v0, field 0x17, Record_Comp (v0 (0x251ba70)->field_0x17 = 0x251ba70)
+    offset (42), field_ptr (0x251ba9a), *field_ptr (0x251ba70)
+iget v2, v0, field 0x16 (v2 = v0->field_0x16 (= 0x6))
+    (offset 38, field_ptr 0x251ba96)
+aput v2, v1, v4 (v1 (0x2537c30)->[v4 (0)] = v2 (6))
+iget v2, v0, field 0x16 (v2 = v0->field_0x16 (= 0x6))
+    (offset 38, field_ptr 0x251ba96)
+const/16 v3, #int10
+invoke-virtual {v5, v2, v3, v1} method_id 0x0011 Ldhry;,Proc_7,(I)V 
+    push v0 (0x251ba70) to stack
+    push v1 (0x2537c30) to stack
+    push v2 (0x6) to stack
+    push v3 (0xa) to stack
+    push v4 (0x0) to stack
+    push v5 (0x251bb10) to stack
+    mv v5 (0x251bb10) to v2
+    mv v2 (0x6) to v3
+    mv v3 (0xa) to v4
+    mv v1 (0x2537c30) to v5
+    save invoke info & pc (0x78)
+add-int/lit8 v0, v3, #int2 (8 = 6 + 2)
+const/4 v1, #int0
+add-int/2addr v0, v4
+aput v0, v5, v1 (v5 (0x2537c30)->[v1 (0)] = v0 (18))
+return-void
+    restore invoke info & pc (0x78)
+    pop (0x251bb10) back to v5
+    pop (0x0) back to v4
+    pop (0xa) back to v3
+    pop (0x6) back to v2
+    pop (0x2537c30) back to v1
+    pop (0x251ba70) back to v0
+aget v1, v1, v4 (v1 = v1 (0x2537c30)->[v4 (0)] (= 18))
+iput v1, v0, field 0x16, Int_Comp (v0 (0x251ba70)->field_0x16 = v1 (0x12))
+    offset (38), field_ptr (0x251ba96), *field_ptr (0x12)
+return-void
+    restore invoke info & pc (0x11e)
+    pop (0xe) back to v6
+    pop (0x2537b10) back to v5
+    pop (0x2537ad0) back to v4
+    pop (0x2537a90) back to v3
+    pop (0x3) back to v2
+    pop (0x251ba70) back to v1
+    pop (0x2) back to v0
+const/16 v1, #int65
+    find field from parent class, field_id = 30 --> parent field = 9
+sget-char v10, field 0x001e, Char_Glob_2 (char = B, static field = 0x2525330, other_data = 0x2525430)
+if-gt v1, v10, offset 0x15 (65 > 66 ?) 
+const/4 v10, #int0
+aget v10, v5, v10 (v10 = v5 (0x2537b10)->[v10 (0)] (= 1))
+const/16 v11, #int67
+invoke-virtual {v12, v1, v11} method_id 0x0008 Ldhry;,Func_1,(C)I 
+    push v0 (0x2) to stack
+    push v1 (0x41) to stack
+    push v2 (0x3) to stack
+    push v3 (0x2537a90) to stack
+    mv v12 (0x251bb10) to v1
+    mv v1 (0x41) to v2
+    mv v11 (0x43) to v3
+    save invoke info & pc (0x13a)
+if-eq v2, v3, offset 0x4 (65 == 67 ?) 
+const/4 v0, #int0
+return v0 (0)
+    restore invoke info & pc (0x13a)
+    pop (0x2537a90) back to v3
+    pop (0x3) back to v2
+    pop (0x41) back to v1
+    pop (0x2) back to v0
+move-result v11 (0x0)
+if-ne v10, v11, offset 0x6 (1 != 0 ?) 
+add-int/lit8 v1, v1, #int1 (66 = 65 + 1)
+int-to-char v1, v1 ( (char)66 = B (0x42) )
+goto -22
+    find field from parent class, field_id = 30 --> parent field = 9
+sget-char v10, field 0x001e, Char_Glob_2 (char = B, static field = 0x2525330, other_data = 0x2525430)
+if-gt v1, v10, offset 0x15 (66 > 66 ?) 
+const/4 v10, #int0
+aget v10, v5, v10 (v10 = v5 (0x2537b10)->[v10 (0)] (= 1))
+const/16 v11, #int67
+invoke-virtual {v12, v1, v11} method_id 0x0008 Ldhry;,Func_1,(C)I 
+    push v0 (0x2) to stack
+    push v1 (0x42) to stack
+    push v2 (0x3) to stack
+    push v3 (0x2537a90) to stack
+    mv v12 (0x251bb10) to v1
+    mv v1 (0x42) to v2
+    mv v11 (0x43) to v3
+    save invoke info & pc (0x13a)
+if-eq v2, v3, offset 0x4 (66 == 67 ?) 
+const/4 v0, #int0
+return v0 (0)
+    restore invoke info & pc (0x13a)
+    pop (0x2537a90) back to v3
+    pop (0x3) back to v2
+    pop (0x42) back to v1
+    pop (0x2) back to v0
+move-result v11 (0x0)
+if-ne v10, v11, offset 0x6 (1 != 0 ?) 
+add-int/lit8 v1, v1, #int1 (67 = 66 + 1)
+int-to-char v1, v1 ( (char)67 = C (0x43) )
+goto -22
+    find field from parent class, field_id = 30 --> parent field = 9
+sget-char v10, field 0x001e, Char_Glob_2 (char = B, static field = 0x2525330, other_data = 0x2525430)
+if-gt v1, v10, offset 0x15 (67 > 66 ?) 
+mul-int v1, v9, v2 (9 = 3 * 3)
+div-int v9, v1, v2 (3 = 9 / 3)
+sub-int/2addr v1, v9 (9 - 3 = 6)
+mul-int/lit8 v1, v1, #int7 (6 * 7 = 42)
+sub-int/2addr v1, v2 (42 - 3 = 39)
+const/4 v1, #int0
+aput v2, v4, v1 (v4 (0x2537ad0)->[v1 (0)] = v2 (3))
+invoke-virtual {v12, v4} method_id 0x000c Ldhry;,Proc_2,([I)V 
+    push v0 (0x2) to stack
+    push v1 (0x0) to stack
+    push v2 (0x3) to stack
+    push v3 (0x2537a90) to stack
+    push v4 (0x2537ad0) to stack
+    push v5 (0x2537b10) to stack
+    mv v12 (0x251bb10) to v4
+    mv v4 (0x2537ad0) to v5
+    save invoke info & pc (0x16c)
+const/4 v3, #int0
+aget v0, v5, v3 (v0 = v5 (0x2537ad0)->[v3 (0)] (= 3))
+add-int/lit8 v0, v0, #int10 (13 = 3 + 10)
+    find field from parent class, field_id = 29 --> parent field = 8
+sget-char v1, field 0x001d, Char_Glob_1 (char = A, static field = 0x2525320, other_data = 0x2525410)
+const/16 v2, #int65
+if-ne v1, v2, offset 0xa (65 != 65 ?) 
+add-int/lit8 v0, v0, #int-1 (12 = 13 + -1)
+    find field from parent class, field_id = 32 --> parent field = 11
+sget v1, field 0x0020, (int = 5, static field = 0x2525350, other_data = 0x2525470)
+sub-int v1, v1, v0
+aput v1, v5, v3 (v5 (0x2537ad0)->[v3 (0)] = v1 (7))
+return-void
+    restore invoke info & pc (0x16c)
+    pop (0x2537b10) back to v5
+    pop (0x2537ad0) back to v4
+    pop (0x2537a90) back to v3
+    pop (0x3) back to v2
+    pop (0x0) back to v1
+    pop (0x2) back to v0
+const/4 v1, #int0
+aget v1, v4, v1 (v1 = v4 (0x2537ad0)->[v1 (0)] (= 7))
+add-int/lit8 v0, v0, #int1 (3 = 2 + 1)
+goto -106
+int-to-long v1, v0, val 3
+iget-wide v9, v12, field 0x22, Number_Of_Runs (v9 v10 = v12 (0x251bb10)->field_0x22)
+    offset (24), field_ptr (0x251bb28), *field_ptr (0x3), val=3 L
+cmp-long v1, v1 (3), v9 (3), cond = 0
+if-gtz v1 (cond 0), offset 102
+invoke-virtual, {v12} method_id 0x000f Ldhry;,Proc_5,()V 
+    push v0 (0x3) to stack
+    push v1 (0x0) to stack
+    mv v12 (0x251bb10) to v1
+    save invoke info & pc (0xb6)
+const/16 v0, #int65
+    find field from parent class, field_id = 29 --> parent field = 8
+sput-char v0, field 0x001d, Char_Glob_1 (char = A, static field = 0x2525320, other_data = 0x2525410)
+const/4 v0, #int0
+    find field from parent class, field_id = 28 --> parent field = 7
+sput-boolean v0, field 0x001c, Bool_Glob (bool = 0, static field = 0x2525310, other_data = 0x25253f0)
+return-void
+    restore invoke info & pc (0xb6)
+    pop (0x0) back to v1
+    pop (0x3) back to v0
+invoke-virtual, {v12} method_id 0x000e Ldhry;,Proc_4,()V 
+    push v0 (0x3) to stack
+    push v1 (0x0) to stack
+    push v2 (0x30000) to stack
+    mv v12 (0x251bb10) to v2
+    save invoke info & pc (0xbc)
+    find field from parent class, field_id = 29 --> parent field = 8
+sget-char v0, field 0x001d, Char_Glob_1 (char = A, static field = 0x2525320, other_data = 0x2525410)
+const/16 v1, #int65
+if-ne v0, v1, offset 0xe (65 != 65 ?) 
+const/4 v0, #int1
+if-nez v0, offset 0x6 (1 != 0)
+const/16 v0, #int66
+    find field from parent class, field_id = 30 --> parent field = 9
+sput-char v0, field 0x001e, Char_Glob_2 (char = B, static field = 0x2525330, other_data = 0x2525430)
+return-void
+    restore invoke info & pc (0xbc)
+    pop (0x30000) back to v2
+    pop (0x0) back to v1
+    pop (0x3) back to v0
+const/4 v2, #int2
+const/4 v9, #int3
+const-string v1, string_id 0x000f
+const/4 v10, #int0
+const/4 v11, #int1
+aput v11, v5, v10 (v5 (0x2537b10)->[v10 (0)] = v11 (1))
+invoke-virtual {v12, v6, v1} method_id 0x0009 Ldhry;,Func_2,(Ljava/lang/String;)Z 
+    push v0 (0x3) to stack
+    push v1 (0xf) to stack
+    push v2 (0x2) to stack
+    push v3 (0x2537a90) to stack
+    push v4 (0x2537ad0) to stack
+    push v5 (0x2537b10) to stack
+    push v6 (0xe) to stack
+    push v7 (0x1450000) to stack
+    push v8 (0xb09a9cb2) to stack
+    push v9 (0x3) to stack
+    mv v12 (0x251bb10) to v7
+    mv v6 (0xe) to v8
+    mv v1 (0xf) to v9
+    save invoke info & pc (0xd2)
+const/4 v4, #int2
+const/4 v0, #int1
+const/4 v1, #int0
+move v3,v1
+move v2,v4
+if-gt v2, v4, offset 0x17 (2 > 2 ?) 
+invoke-virtual {v8, v2} method_id 0x0026 Ljava/lang/String;,charAt,(I)C 
+    invoke Ljava/lang/String;/charAt I
+    call java.lang.String.charAt
+    string_id 14, index 2 = R
+move-result v5 (0x52)
+add-int/lit8 v6, v2, #int1 (3 = 2 + 1)
+invoke-virtual {v9, v6} method_id 0x0026 Ljava/lang/String;,charAt,(I)C 
+    invoke Ljava/lang/String;/charAt I
+    call java.lang.String.charAt
+    string_id 15, index 3 = Y
+move-result v6 (0x59)
+invoke-virtual {v7, v5, v6} method_id 0x0008 Ldhry;,Func_1,(C)I 
+    push v0 (0x1) to stack
+    push v1 (0x0) to stack
+    push v2 (0x2) to stack
+    push v3 (0x0) to stack
+    mv v7 (0x251bb10) to v1
+    mv v5 (0x52) to v2
+    mv v6 (0x59) to v3
+    save invoke info & pc (0x22)
+if-eq v2, v3, offset 0x4 (82 == 89 ?) 
+const/4 v0, #int0
+return v0 (0)
+    restore invoke info & pc (0x22)
+    pop (0x0) back to v3
+    pop (0x2) back to v2
+    pop (0x0) back to v1
+    pop (0x1) back to v0
+move-result v5 (0x0)
+if-nez v5, offset 0xfffffff0 (0 != 0)
+const/16 v3, #int65
+add-int/lit8 v2, v2, #int1 (3 = 2 + 1)
+goto -22
+if-gt v2, v4, offset 0x17 (3 > 2 ?) 
+const/16 v4, #int87
+if-gt v3, v4, offset 0x7 (65 > 87 ?) 
+const/16 v4, #int88
+if-ne v3, v4, offset 0x3 (65 != 88 ?) 
+invoke-virtual {v8, v9} method_id 0x0027 Ljava/lang/String;,compareTo,(Ljava/lang/String;)I 
+    invoke Ljava/lang/String;/compareTo Ljava/lang/String;
+    call java.lang.String.compareTo
+    str_id 1 = 0xe, str_id 2 = 0xf, result = -1
+move-result v3 (0xffffffff)
+if-lez v3, offset 0x5 (-1 <= 0)
+move v0,v1
+goto -11
+return v0 (0)
+    restore invoke info & pc (0xd2)
+    pop (0x3) back to v9
+    pop (0xb09a9cb2) back to v8
+    pop (0x1450000) back to v7
+    pop (0xe) back to v6
+    pop (0x2537b10) back to v5
+    pop (0x2537ad0) back to v4
+    pop (0x2537a90) back to v3
+    pop (0x2) back to v2
+    pop (0xf) back to v1
+    pop (0x3) back to v0
+move-result v1 (0x0)
+if-nez v1, offset 0x14 (0 != 0)
+const/4 v1, #int1
+    find field from parent class, field_id = 28 --> parent field = 7
+sput-boolean v1, field 0x001c, Bool_Glob (bool = 1, static field = 0x2525310, other_data = 0x25253f0)
+if-ge v2 (2), v9 (3), 17
+const/4 v1, #int0
+mul-int/lit8 v10, v2, #int5 (2 * 5 = 10)
+sub-int/2addr v10, v9 (10 - 3 = 7)
+aput v10, v3, v1 (v3 (0x2537a90)->[v1 (0)] = v10 (7))
+invoke-virtual {v12, v2, v9, v3} method_id 0x0011 Ldhry;,Proc_7,(I)V 
+    push v0 (0x3) to stack
+    push v1 (0x0) to stack
+    push v2 (0x2) to stack
+    push v3 (0x2537a90) to stack
+    push v4 (0x2537ad0) to stack
+    push v5 (0x2537b10) to stack
+    mv v12 (0x251bb10) to v2
+    mv v2 (0x2) to v3
+    mv v9 (0x3) to v4
+    mv v3 (0x2537a90) to v5
+    save invoke info & pc (0xf4)
+add-int/lit8 v0, v3, #int2 (4 = 2 + 2)
+const/4 v1, #int0
+add-int/2addr v0, v4
+aput v0, v5, v1 (v5 (0x2537a90)->[v1 (0)] = v0 (7))
+return-void
+    restore invoke info & pc (0xf4)
+    pop (0x2537b10) back to v5
+    pop (0x2537ad0) back to v4
+    pop (0x2537a90) back to v3
+    pop (0x2) back to v2
+    pop (0x0) back to v1
+    pop (0x3) back to v0
+add-int/lit8 v1, v2, #int1 (3 = 2 + 1)
+move v2,v1
+goto -14
+if-ge v2 (3), v9 (3), 17
+const/4 v1, #int0
+aget v1, v3, v1 (v1 = v3 (0x2537a90)->[v1 (0)] (= 7))
+sget-object v10, field 0x001a, Array_Glob_1 (v10 = field_0x1a)
+    find field from parent class, field_id = 26 --> parent field = 5
+    field_0x1a = 0x251a250
+sget-object v11, field 0x001b, Array_Glob_2 (v11 = field_0x1b)
+    find field from parent class, field_id = 27 --> parent field = 6
+    field_0x1b = 0x251a4c0
+invoke-virtual {v12, v10, v11, v2, v1} method_id 0x0012 Ldhry;,Proc_8,([I)V 
+    push v0 (0x3) to stack
+    push v1 (0x7) to stack
+    push v2 (0x3) to stack
+    push v3 (0x2537a90) to stack
+    push v4 (0x2537ad0) to stack
+    push v5 (0x2537b10) to stack
+    push v6 (0xe) to stack
+    push v7 (0x1450000) to stack
+    push v8 (0xb09a9cb2) to stack
+    mv v12 (0x251bb10) to v4
+    mv v10 (0x251a250) to v5
+    mv v11 (0x251a4c0) to v6
+    mv v2 (0x3) to v7
+    mv v1 (0x7) to v8
+    save invoke info & pc (0x114)
+add-int/lit8 v1, v7, #int5 (8 = 3 + 5)
+aput v8, v5, v1 (v5 (0x251a250)->[v1 (8)] = v8 (7))
+add-int/lit8 v0, v1, #int1 (9 = 8 + 1)
+aget v2, v5, v1 (v2 = v5 (0x251a250)->[v1 (8)] (= 7))
+aput v2, v5, v0 (v5 (0x251a250)->[v0 (9)] = v2 (7))
+add-int/lit8 v0, v1, #int30 (38 = 8 + 30)
+aput v1, v5, v0 (v5 (0x251a250)->[v0 (38)] = v1 (8))
+move v0,v1
+add-int/lit8 v2, v1, #int1 (9 = 8 + 1)
+if-gt v0, v2, offset 0x9 (8 > 9 ?) 
+aget-object v2, v6, v1 (v2 = v6 (0x251a4c0)->[v1 (8)] (= 0x2527360))
+aput v1, v2, v0 (v2 (0x2527360)->[v0 (8)] = v1 (8))
+add-int/lit8 v0, v0, #int1 (9 = 8 + 1)
+goto -10
+add-int/lit8 v2, v1, #int1 (9 = 8 + 1)
+if-gt v0, v2, offset 0x9 (9 > 9 ?) 
+aget-object v2, v6, v1 (v2 = v6 (0x251a4c0)->[v1 (8)] (= 0x2527360))
+aput v1, v2, v0 (v2 (0x2527360)->[v0 (9)] = v1 (8))
+add-int/lit8 v0, v0, #int1 (10 = 9 + 1)
+goto -10
+add-int/lit8 v2, v1, #int1 (9 = 8 + 1)
+if-gt v0, v2, offset 0x9 (10 > 9 ?) 
+aget-object v0, v6, v1 (v0 = v6 (0x251a4c0)->[v1 (8)] (= 0x2527360))
+add-int/lit8 v2, v1, #int-1 (7 = 8 + -1)
+aget v3, v0, v2 (v3 = v0 (0x2527360)->[v2 (7)] (= 2))
+add-int/lit8 v3, v3, #int1 (3 = 2 + 1)
+aput v3, v0, v2 (v0 (0x2527360)->[v2 (7)] = v3 (3))
+add-int/lit8 v0, v1, #int20 (28 = 8 + 20)
+aget-object v0, v6, v0 (v0 = v6 (0x251a4c0)->[v0 (28)] (= 0x2529f20))
+aget v2, v5, v1 (v2 = v5 (0x251a250)->[v1 (8)] (= 7))
+aput v2, v0, v1 (v0 (0x2529f20)->[v1 (8)] = v2 (7))
+const/4 v0, #int5
+    find field from parent class, field_id = 32 --> parent field = 11
+sput v0, field_id 0x20, Int_Glob (obj 0x2525460, value 5 (0x5))
+return-void
+    restore invoke info & pc (0x114)
+    pop (0xb09a9cb2) back to v8
+    pop (0x1450000) back to v7
+    pop (0xe) back to v6
+    pop (0x2537b10) back to v5
+    pop (0x2537ad0) back to v4
+    pop (0x2537a90) back to v3
+    pop (0x3) back to v2
+    pop (0x7) back to v1
+    pop (0x3) back to v0
+sget-object v1, field 0x0023, Record_Glob (v1 = field_0x23)
+    find field from parent class, field_id = 35 --> parent field = 13
+    field_0x23 = 0x251ba70
+invoke-virtual {v12, v1} method_id 0x000b Ldhry;,Proc_1,(LRecord_Type;)V 
+    push v0 (0x3) to stack
+    push v1 (0x251ba70) to stack
+    push v2 (0x3) to stack
+    push v3 (0x2537a90) to stack
+    push v4 (0x2537ad0) to stack
+    push v5 (0x2537b10) to stack
+    push v6 (0xe) to stack
+    mv v12 (0x251bb10) to v5
+    mv v1 (0x251ba70) to v6
+    save invoke info & pc (0x11e)
+const/4 v4, #int0
+iget-object v0, v6, field 0x17, Record_Comp (v0 = v6 (0x251ba70)->field_0x17 (= 0x251ba70))
+    (offset 42, field_ptr 0x251ba9a)
+sget-object v1, field 0x0023, Record_Glob (v1 = field_0x23)
+    find field from parent class, field_id = 35 --> parent field = 13
+    field_0x23 = 0x251ba70
+iput-object v1, v6, field 0x17, Record_Comp (v6 (0x251ba70)->field_0x17 = 0x251ba70)
+    offset (42), field_ptr (0x251ba9a), *field_ptr (0x251ba70)
+const/4 v1, #int5
+iput v1, v6, field 0x16, Int_Comp (v6 (0x251ba70)->field_0x16 = v1 (0x5))
+    offset (38), field_ptr (0x251ba96), *field_ptr (0x5)
+iget v1, v6, field 0x16 (v1 = v6->field_0x16 (= 0x5))
+    (offset 38, field_ptr 0x251ba96)
+iput v1, v0, field 0x16, Int_Comp (v0 (0x251ba70)->field_0x16 = v1 (0x5))
+    offset (38), field_ptr (0x251ba96), *field_ptr (0x5)
+iget-object v1, v6, field 0x17, Record_Comp (v1 = v6 (0x251ba70)->field_0x17 (= 0x251ba70))
+    (offset 42, field_ptr 0x251ba9a)
+iput-object v1, v0, field 0x17, Record_Comp (v0 (0x251ba70)->field_0x17 = 0x251ba70)
+    offset (42), field_ptr (0x251ba9a), *field_ptr (0x251ba70)
+iget-object v1, v0, field 0x17, Record_Comp (v1 = v0 (0x251ba70)->field_0x17 (= 0x251ba70))
+    (offset 42, field_ptr 0x251ba9a)
+invoke-virtual {v5, v1} method_id 0x000d Ldhry;,Proc_3,(LRecord_Type;)V 
+    push v0 (0x251ba70) to stack
+    push v1 (0x251ba70) to stack
+    push v2 (0x3) to stack
+    push v3 (0x2537a90) to stack
+    push v4 (0x0) to stack
+    push v5 (0x251bb10) to stack
+    mv v5 (0x251bb10) to v4
+    mv v1 (0x251ba70) to v5
+    save invoke info & pc (0x28)
+const/4 v3, #int0
+sget-object v0, field 0x0023, Record_Glob (v0 = field_0x23)
+    find field from parent class, field_id = 35 --> parent field = 13
+    field_0x23 = 0x251ba70
+if-eqz v0, offset 0x1d (38910576 != 0)
+sget-object v0, field 0x0023, Record_Glob (v0 = field_0x23)
+    find field from parent class, field_id = 35 --> parent field = 13
+    field_0x23 = 0x251ba70
+iget-object v0, v0, field 0x17, Record_Comp (v0 = v0 (0x251ba70)->field_0x17 (= 0x251ba70))
+    (offset 42, field_ptr 0x251ba9a)
+const/4 v0, #int1
+new-array v0, v0, type_id 0x001e
+    num-elem 1, each elem size 4, total 44, ptr 0x2537c70, [I
+sget-object v1, field 0x0023, Record_Glob (v1 = field_0x23)
+    find field from parent class, field_id = 35 --> parent field = 13
+    field_0x23 = 0x251ba70
+iget v1, v1, field 0x16 (v1 = v1->field_0x16 (= 0x5))
+    (offset 38, field_ptr 0x251ba96)
+aput v1, v0, v3 (v0 (0x2537c70)->[v3 (0)] = v1 (5))
+const/16 v1, #int10
+    find field from parent class, field_id = 32 --> parent field = 11
+sget v2, field 0x0020, (int = 5, static field = 0x2525350, other_data = 0x2525470)
+invoke-virtual {v4, v1, v2, v0} method_id 0x0011 Ldhry;,Proc_7,(I)V 
+    push v0 (0x2537c70) to stack
+    push v1 (0xa) to stack
+    push v2 (0x5) to stack
+    push v3 (0x0) to stack
+    push v4 (0x251bb10) to stack
+    push v5 (0x251ba70) to stack
+    mv v4 (0x251bb10) to v2
+    mv v1 (0xa) to v3
+    mv v2 (0x5) to v4
+    mv v0 (0x2537c70) to v5
+    save invoke info & pc (0x2c)
+add-int/lit8 v0, v3, #int2 (12 = 10 + 2)
+const/4 v1, #int0
+add-int/2addr v0, v4
+aput v0, v5, v1 (v5 (0x2537c70)->[v1 (0)] = v0 (17))
+return-void
+    restore invoke info & pc (0x2c)
+    pop (0x251ba70) back to v5
+    pop (0x251bb10) back to v4
+    pop (0x0) back to v3
+    pop (0x5) back to v2
+    pop (0xa) back to v1
+    pop (0x2537c70) back to v0
+sget-object v1, field 0x0023, Record_Glob (v1 = field_0x23)
+    find field from parent class, field_id = 35 --> parent field = 13
+    field_0x23 = 0x251ba70
+aget v0, v0, v3 (v0 = v0 (0x2537c70)->[v3 (0)] (= 17))
+iput v0, v1, field 0x16, Int_Comp (v1 (0x251ba70)->field_0x16 = v0 (0x11))
+    offset (38), field_ptr (0x251ba96), *field_ptr (0x11)
+return-void
+    restore invoke info & pc (0x28)
+    pop (0x251bb10) back to v5
+    pop (0x0) back to v4
+    pop (0x2537a90) back to v3
+    pop (0x3) back to v2
+    pop (0x251ba70) back to v1
+    pop (0x251ba70) back to v0
+const/4 v1, #int1
+new-array v1, v1, type_id 0x001e
+    num-elem 1, each elem size 4, total 44, ptr 0x2537cb0, [I
+iget v2, v0, field 0x13 (v2 = v0->field_0x13 (= 0x0))
+    (offset 26, field_ptr 0x251ba8a)
+if-nez v2, offset 0x28 (0 != 0)
+const/4 v2, #int6
+iput v2, v0, field 0x16, Int_Comp (v0 (0x251ba70)->field_0x16 = v2 (0x6))
+    offset (38), field_ptr (0x251ba96), *field_ptr (0x6)
+iget v2, v0, field 0x14 (v2 = v0->field_0x14 (= 0x1))
+    (offset 30, field_ptr 0x251ba8e)
+aput v2, v1, v4 (v1 (0x2537cb0)->[v4 (0)] = v2 (1))
+iget v2, v6, field 0x14 (v2 = v6->field_0x14 (= 0x1))
+    (offset 30, field_ptr 0x251ba8e)
+invoke-virtual {v5, v2, v1} method_id 0x0010 Ldhry;,Proc_6,(I)V 
+    push v0 (0x251ba70) to stack
+    push v1 (0x2537cb0) to stack
+    push v2 (0x1) to stack
+    push v3 (0x2537a90) to stack
+    push v4 (0x0) to stack
+    push v5 (0x251bb10) to stack
+    push v6 (0x251ba70) to stack
+    mv v5 (0x251bb10) to v4
+    mv v2 (0x1) to v5
+    mv v1 (0x2537cb0) to v6
+    save invoke info & pc (0x4e)
+const/4 v3, #int3
+const/4 v2, #int0
+aput v5, v6, v2 (v6 (0x2537cb0)->[v2 (0)] = v5 (1))
+invoke-virtual {v4, v5} method_id 0x000a Ldhry;,Func_3,(I)Z 
+    push v0 (0x251ba70) to stack
+    push v1 (0x2537cb0) to stack
+    push v2 (0x0) to stack
+    mv v4 (0x251bb10) to v1
+    mv v5 (0x1) to v2
+    save invoke info & pc (0x8)
+const/4 v0, #int2
+if-ne v2, v0, offset 0x4 (1 != 2 ?) 
+const/4 v0, #int0
+goto -2
+return v0 (0)
+    restore invoke info & pc (0x8)
+    pop (0x0) back to v2
+    pop (0x2537cb0) back to v1
+    pop (0x251ba70) back to v0
+move-result v0 (0x0)
+if-nez v0, offset 0x4 (0 != 0)
+aput v3, v6, v2 (v6 (0x2537cb0)->[v2 (0)] = v3 (3))
+packed-switch v5, table 0x1c (num_case 5, my case = 1, offset = 7 words)
+    find field from parent class, field_id = 32 --> parent field = 11
+sget v0, field 0x0020, (int = 5, static field = 0x2525350, other_data = 0x2525470)
+const/16 v1, #int100
+if-le v0, v1, offset 0x5 (5 <= 100 ?) 
+aput v3, v6, v2 (v6 (0x2537cb0)->[v2 (0)] = v3 (3))
+goto -15
+return-void
+    restore invoke info & pc (0x4e)
+    pop (0x251ba70) back to v6
+    pop (0x251bb10) back to v5
+    pop (0x0) back to v4
+    pop (0x2537a90) back to v3
+    pop (0x1) back to v2
+    pop (0x2537cb0) back to v1
+    pop (0x251ba70) back to v0
+aget v2, v1, v4 (v2 = v1 (0x2537cb0)->[v4 (0)] (= 3))
+iput v2, v0, field 0x14, Enum_Comp (v0 (0x251ba70)->field_0x14 = v2 (0x3))
+    offset (30), field_ptr (0x251ba8e), *field_ptr (0x3)
+sget-object v2, field 0x0023, Record_Glob (v2 = field_0x23)
+    find field from parent class, field_id = 35 --> parent field = 13
+    field_0x23 = 0x251ba70
+iget-object v2, v2, field 0x17, Record_Comp (v2 = v2 (0x251ba70)->field_0x17 (= 0x251ba70))
+    (offset 42, field_ptr 0x251ba9a)
+iput-object v2, v0, field 0x17, Record_Comp (v0 (0x251ba70)->field_0x17 = 0x251ba70)
+    offset (42), field_ptr (0x251ba9a), *field_ptr (0x251ba70)
+iget v2, v0, field 0x16 (v2 = v0->field_0x16 (= 0x6))
+    (offset 38, field_ptr 0x251ba96)
+aput v2, v1, v4 (v1 (0x2537cb0)->[v4 (0)] = v2 (6))
+iget v2, v0, field 0x16 (v2 = v0->field_0x16 (= 0x6))
+    (offset 38, field_ptr 0x251ba96)
+const/16 v3, #int10
+invoke-virtual {v5, v2, v3, v1} method_id 0x0011 Ldhry;,Proc_7,(I)V 
+    push v0 (0x251ba70) to stack
+    push v1 (0x2537cb0) to stack
+    push v2 (0x6) to stack
+    push v3 (0xa) to stack
+    push v4 (0x0) to stack
+    push v5 (0x251bb10) to stack
+    mv v5 (0x251bb10) to v2
+    mv v2 (0x6) to v3
+    mv v3 (0xa) to v4
+    mv v1 (0x2537cb0) to v5
+    save invoke info & pc (0x78)
+add-int/lit8 v0, v3, #int2 (8 = 6 + 2)
+const/4 v1, #int0
+add-int/2addr v0, v4
+aput v0, v5, v1 (v5 (0x2537cb0)->[v1 (0)] = v0 (18))
+return-void
+    restore invoke info & pc (0x78)
+    pop (0x251bb10) back to v5
+    pop (0x0) back to v4
+    pop (0xa) back to v3
+    pop (0x6) back to v2
+    pop (0x2537cb0) back to v1
+    pop (0x251ba70) back to v0
+aget v1, v1, v4 (v1 = v1 (0x2537cb0)->[v4 (0)] (= 18))
+iput v1, v0, field 0x16, Int_Comp (v0 (0x251ba70)->field_0x16 = v1 (0x12))
+    offset (38), field_ptr (0x251ba96), *field_ptr (0x12)
+return-void
+    restore invoke info & pc (0x11e)
+    pop (0xe) back to v6
+    pop (0x2537b10) back to v5
+    pop (0x2537ad0) back to v4
+    pop (0x2537a90) back to v3
+    pop (0x3) back to v2
+    pop (0x251ba70) back to v1
+    pop (0x3) back to v0
+const/16 v1, #int65
+    find field from parent class, field_id = 30 --> parent field = 9
+sget-char v10, field 0x001e, Char_Glob_2 (char = B, static field = 0x2525330, other_data = 0x2525430)
+if-gt v1, v10, offset 0x15 (65 > 66 ?) 
+const/4 v10, #int0
+aget v10, v5, v10 (v10 = v5 (0x2537b10)->[v10 (0)] (= 1))
+const/16 v11, #int67
+invoke-virtual {v12, v1, v11} method_id 0x0008 Ldhry;,Func_1,(C)I 
+    push v0 (0x3) to stack
+    push v1 (0x41) to stack
+    push v2 (0x3) to stack
+    push v3 (0x2537a90) to stack
+    mv v12 (0x251bb10) to v1
+    mv v1 (0x41) to v2
+    mv v11 (0x43) to v3
+    save invoke info & pc (0x13a)
+if-eq v2, v3, offset 0x4 (65 == 67 ?) 
+const/4 v0, #int0
+return v0 (0)
+    restore invoke info & pc (0x13a)
+    pop (0x2537a90) back to v3
+    pop (0x3) back to v2
+    pop (0x41) back to v1
+    pop (0x3) back to v0
+move-result v11 (0x0)
+if-ne v10, v11, offset 0x6 (1 != 0 ?) 
+add-int/lit8 v1, v1, #int1 (66 = 65 + 1)
+int-to-char v1, v1 ( (char)66 = B (0x42) )
+goto -22
+    find field from parent class, field_id = 30 --> parent field = 9
+sget-char v10, field 0x001e, Char_Glob_2 (char = B, static field = 0x2525330, other_data = 0x2525430)
+if-gt v1, v10, offset 0x15 (66 > 66 ?) 
+const/4 v10, #int0
+aget v10, v5, v10 (v10 = v5 (0x2537b10)->[v10 (0)] (= 1))
+const/16 v11, #int67
+invoke-virtual {v12, v1, v11} method_id 0x0008 Ldhry;,Func_1,(C)I 
+    push v0 (0x3) to stack
+    push v1 (0x42) to stack
+    push v2 (0x3) to stack
+    push v3 (0x2537a90) to stack
+    mv v12 (0x251bb10) to v1
+    mv v1 (0x42) to v2
+    mv v11 (0x43) to v3
+    save invoke info & pc (0x13a)
+if-eq v2, v3, offset 0x4 (66 == 67 ?) 
+const/4 v0, #int0
+return v0 (0)
+    restore invoke info & pc (0x13a)
+    pop (0x2537a90) back to v3
+    pop (0x3) back to v2
+    pop (0x42) back to v1
+    pop (0x3) back to v0
+move-result v11 (0x0)
+if-ne v10, v11, offset 0x6 (1 != 0 ?) 
+add-int/lit8 v1, v1, #int1 (67 = 66 + 1)
+int-to-char v1, v1 ( (char)67 = C (0x43) )
+goto -22
+    find field from parent class, field_id = 30 --> parent field = 9
+sget-char v10, field 0x001e, Char_Glob_2 (char = B, static field = 0x2525330, other_data = 0x2525430)
+if-gt v1, v10, offset 0x15 (67 > 66 ?) 
+mul-int v1, v9, v2 (9 = 3 * 3)
+div-int v9, v1, v2 (3 = 9 / 3)
+sub-int/2addr v1, v9 (9 - 3 = 6)
+mul-int/lit8 v1, v1, #int7 (6 * 7 = 42)
+sub-int/2addr v1, v2 (42 - 3 = 39)
+const/4 v1, #int0
+aput v2, v4, v1 (v4 (0x2537ad0)->[v1 (0)] = v2 (3))
+invoke-virtual {v12, v4} method_id 0x000c Ldhry;,Proc_2,([I)V 
+    push v0 (0x3) to stack
+    push v1 (0x0) to stack
+    push v2 (0x3) to stack
+    push v3 (0x2537a90) to stack
+    push v4 (0x2537ad0) to stack
+    push v5 (0x2537b10) to stack
+    mv v12 (0x251bb10) to v4
+    mv v4 (0x2537ad0) to v5
+    save invoke info & pc (0x16c)
+const/4 v3, #int0
+aget v0, v5, v3 (v0 = v5 (0x2537ad0)->[v3 (0)] (= 3))
+add-int/lit8 v0, v0, #int10 (13 = 3 + 10)
+    find field from parent class, field_id = 29 --> parent field = 8
+sget-char v1, field 0x001d, Char_Glob_1 (char = A, static field = 0x2525320, other_data = 0x2525410)
+const/16 v2, #int65
+if-ne v1, v2, offset 0xa (65 != 65 ?) 
+add-int/lit8 v0, v0, #int-1 (12 = 13 + -1)
+    find field from parent class, field_id = 32 --> parent field = 11
+sget v1, field 0x0020, (int = 5, static field = 0x2525350, other_data = 0x2525470)
+sub-int v1, v1, v0
+aput v1, v5, v3 (v5 (0x2537ad0)->[v3 (0)] = v1 (7))
+return-void
+    restore invoke info & pc (0x16c)
+    pop (0x2537b10) back to v5
+    pop (0x2537ad0) back to v4
+    pop (0x2537a90) back to v3
+    pop (0x3) back to v2
+    pop (0x0) back to v1
+    pop (0x3) back to v0
+const/4 v1, #int0
+aget v1, v4, v1 (v1 = v4 (0x2537ad0)->[v1 (0)] (= 7))
+add-int/lit8 v0, v0, #int1 (4 = 3 + 1)
+goto -106
+int-to-long v1, v0, val 4
+iget-wide v9, v12, field 0x22, Number_Of_Runs (v9 v10 = v12 (0x251bb10)->field_0x22)
+    offset (24), field_ptr (0x251bb28), *field_ptr (0x3), val=3 L
+cmp-long v1, v1 (4), v9 (3), cond = 1
+if-gtz v1 (cond 1), offset 102
+invoke-static {} method_id 0x002d Ljava/lang/System;,currentTimeMillis,()J 
+    invoke Ljava/lang/System;/currentTimeMillis (null)
+    call java.lang.System.currentTimeMillis
+move-result-wide v0,v1 (val 0x1459cb2b09b)
+sub-long/2addr v0, v7
+1398493327515 - 1398493327514 = 1
+sget-object v2, field 0x000f, out (v2 = field_0xf)
+    field_id = 15 --> static_id = 0
+    field_0xf = 0x25260f0
+new-instance v3, type_id 0x0019, size 24, ptr 0x2537cf0, Ljava/lang/StringBuilder;
+invoke-direct, {v3} method_id 0x0028 Ljava/lang/StringBuilder;,<init>,()V 
+    invoke Ljava/lang/StringBuilder;/<init> (null)
+    call java.lang.StringBuilder.<init>
+const-string v4, string_id 0x007f
+invoke-virtual {v3, v4} method_id 0x002b Ljava/lang/StringBuilder;,append,(Ljava/lang/String;)Ljava/lang/StringBuilder; 
+    invoke Ljava/lang/StringBuilder;/append Ljava/lang/String;
+    call java.lang.StringBuilder.append
+move-result-object v3 (val = 0x1450000)
+invoke-virtual {v3, v0, v1} method_id 0x002a Ljava/lang/StringBuilder;,append,(J)Ljava/lang/StringBuilder; 
+    invoke Ljava/lang/StringBuilder;/append J
+    call java.lang.StringBuilder.append
+move-result-object v3 (val = 0x1450000)
+const-string v4, string_id 0x0074
+invoke-virtual {v3, v4} method_id 0x002b Ljava/lang/StringBuilder;,append,(Ljava/lang/String;)Ljava/lang/StringBuilder; 
+    invoke Ljava/lang/StringBuilder;/append Ljava/lang/String;
+    call java.lang.StringBuilder.append
+move-result-object v3 (val = 0x1450000)
+invoke-virtual, {v3} method_id 0x002c Ljava/lang/StringBuilder;,toString,()Ljava/lang/String; 
+    invoke Ljava/lang/StringBuilder;/toString (null)
+    call java.lang.StringBuilder.toString
+move-result-object v3 (val = 0x1450000)
+invoke-virtual {v2, v3} method_id 0x0020 Ljava/io/PrintStream;,println,(Ljava/lang/String;)V 
+    invoke Ljava/io/PrintStream;/println Ljava/lang/String;
+    call java.io.PrintStream.println
+    total time: 1ms
+sget-object v2, field 0x000f, out (v2 = field_0xf)
+    field_id = 15 --> static_id = 0
+    field_0xf = 0x25260f0
+new-instance v3, type_id 0x0019, size 24, ptr 0x2537d10, Ljava/lang/StringBuilder;
+invoke-direct, {v3} method_id 0x0028 Ljava/lang/StringBuilder;,<init>,()V 
+    invoke Ljava/lang/StringBuilder;/<init> (null)
+    call java.lang.StringBuilder.<init>
+const-string v4, string_id 0x0055
+invoke-virtual {v3, v4} method_id 0x002b Ljava/lang/StringBuilder;,append,(Ljava/lang/String;)Ljava/lang/StringBuilder; 
+    invoke Ljava/lang/StringBuilder;/append Ljava/lang/String;
+    call java.lang.StringBuilder.append
+move-result-object v3 (val = 0x1450000)
+iget-wide v4, v12, field 0x22, Number_Of_Runs (v4 v5 = v12 (0x251bb10)->field_0x22)
+    offset (24), field_ptr (0x251bb28), *field_ptr (0x3), val=3 L
+const-wide/16 v6, #int1000
+mul-long/2addr v4, v6  (3)*(1000) = (3000)
+div-long v0, v4, v0 (3000 / 1 = 3000)
+invoke-virtual {v3, v0, v1} method_id 0x002a Ljava/lang/StringBuilder;,append,(J)Ljava/lang/StringBuilder; 
+    invoke Ljava/lang/StringBuilder;/append J
+    call java.lang.StringBuilder.append
+move-result-object v0 (val = 0x1450000)
+const-string v1, string_id 0x0001
+invoke-virtual {v0, v1} method_id 0x002b Ljava/lang/StringBuilder;,append,(Ljava/lang/String;)Ljava/lang/StringBuilder; 
+    invoke Ljava/lang/StringBuilder;/append Ljava/lang/String;
+    call java.lang.StringBuilder.append
+move-result-object v0 (val = 0x1450000)
+invoke-virtual, {v0} method_id 0x002c Ljava/lang/StringBuilder;,toString,()Ljava/lang/String; 
+    invoke Ljava/lang/StringBuilder;/toString (null)
+    call java.lang.StringBuilder.toString
+move-result-object v0 (val = 0x1450000)
+invoke-virtual {v2, v0} method_id 0x0020 Ljava/io/PrintStream;,println,(Ljava/lang/String;)V 
+    invoke Ljava/io/PrintStream;/println Ljava/lang/String;
+    call java.io.PrintStream.println
+    Result: 3000 dhrystone/sec.
+return-void
+    restore invoke info & pc (0x76)
+    pop (0x0) back to v12
+    pop (0x0) back to v11
+    pop (0x0) back to v10
+    pop (0x0) back to v9
+    pop (0x0) back to v8
+    pop (0x0) back to v7
+    pop (0x0) back to v6
+    pop (0x0) back to v5
+    pop (0x0) back to v4
+    pop (0x2526120) back to v3
+    pop (0x30000) back to v2
+    pop (0x0) back to v1
+    pop (0x251bb10) back to v0
+return-void
